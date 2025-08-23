@@ -1,9 +1,10 @@
 import asyncio
 import os
+import logging
 from typing import Optional
 
 from dotenv import load_dotenv
-from browser_use import Agent, BrowserProfile, BrowserSession, ChatAzureOpenAI
+from browser_use import Agent, BrowserProfile, BrowserSession, ChatOpenAI
 
 # Load environment variables from a local .env file if present
 load_dotenv()
@@ -44,12 +45,9 @@ async def send_message_with_browser(
     """
 
     # Resolve configuration from args or environment variables
-    # set env from .env
     load_dotenv()
-    model = model or os.getenv("AZURE_OPENAI_MODEL", "gpt-5-mini")
-    azure_api_key = azure_api_key or os.getenv("AZURE_OPENAI_API_KEY")
-    azure_endpoint = azure_endpoint or os.getenv("AZURE_OPENAI_ENDPOINT")
 
+    # Resolve Chrome settings
     chrome_executable_path = chrome_executable_path or os.getenv(
         "BROWSER_EXECUTABLE_PATH",
         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
@@ -57,11 +55,15 @@ async def send_message_with_browser(
     chrome_user_data_dir = chrome_user_data_dir or os.getenv(
         "BROWSER_USER_DATA_DIR", "~/.config/browseruse/profiles/real-chrome"
     )
+    chrome_user_data_dir = os.path.expanduser(chrome_user_data_dir)
 
-    if not azure_api_key or not azure_endpoint:
+    if not os.path.exists(chrome_executable_path):
         raise RuntimeError(
-            "Missing Azure OpenAI configuration. Set AZURE_OPENAI_API_KEY and AZURE_OPENAI_ENDPOINT."
+            f"Chrome executable not found at '{chrome_executable_path}'. Set BROWSER_EXECUTABLE_PATH."
         )
+
+    # Ensure profile dir exists so BrowserUse doesn't fail on first launch
+    os.makedirs(chrome_user_data_dir, exist_ok=True)
 
     browser_profile = BrowserProfile(
         executable_path=chrome_executable_path,
@@ -71,12 +73,29 @@ async def send_message_with_browser(
 
     prompt = _build_prompt(x_url=x_url, personal_message=personal_message)
 
+    # LLM configuration. Prefer explicit OpenAI API key. Azure is not wired through
+    # browser_use's ChatOpenAI yet in this project.
+    openai_api_key = os.getenv("OPENAI_API_KEY")
+    if not openai_api_key:
+        raise RuntimeError(
+            "OPENAI_API_KEY is not set for backend real browser agent."
+        )
+
+    if not model:
+        # Allow override through env var if not passed via query param
+        model = os.getenv("AZURE_OPENAI_MODEL") or os.getenv("OPENAI_MODEL")
+
+    logging.info(
+        "Launching BrowserUse agent: model=%s, target=%s, profile=%s",
+        model or "<library default>",
+        x_url,
+        chrome_user_data_dir,
+    )
+
     agent = Agent(
-        llm=ChatAzureOpenAI(
-            model=model,
-            api_key=azure_api_key,
-            azure_endpoint=azure_endpoint,
-            reasoning_effort="minimal",
+        llm=ChatOpenAI(
+            model=model,  # Let library default if None
+            api_key=openai_api_key,
         ),
         task=prompt,
         browser_session=browser_session,

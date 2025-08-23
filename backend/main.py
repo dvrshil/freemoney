@@ -1,17 +1,54 @@
 import os
 import asyncio
+import logging
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, HttpUrl, Field
+from pydantic import BaseModel, Field
+try:
+    # Pydantic v2
+    from pydantic import ConfigDict  # type: ignore
+except Exception:  # pragma: no cover - fallback for older pydantic
+    ConfigDict = None  # type: ignore
 
 from .real_browser import send_message_with_browser
 
 
 class SendMessagesItem(BaseModel):
-    x_url: HttpUrl = Field(..., description="Profile or DM URL on X")
-    personal_message: str = Field(..., min_length=1, description="Message to send")
+    """Flexible payload that accepts either frontend or backend field names.
+
+    Supported keys (all optional at parsing time; validated in handler):
+      - twitterUrl (preferred, from frontend)
+      - message (preferred, from frontend)
+      - x_url (legacy)
+      - twitter_url (alias variant)
+      - personal_message (legacy)
+    """
+
+    # Frontend keys
+    twitterUrl: Optional[str] = None
+    message: Optional[str] = None
+
+    # Backend / alt keys
+    x_url: Optional[str] = None
+    twitter_url: Optional[str] = None
+    personal_message: Optional[str] = None
+
+    if ConfigDict is not None:
+        model_config = ConfigDict(extra="ignore")  # type: ignore[assignment]
+    else:
+        class Config:  # type: ignore[no-redef]
+            extra = "ignore"
+
+    def normalized(self) -> tuple[str, str]:
+        url = (self.twitterUrl or self.twitter_url or self.x_url or "").strip()
+        msg = (self.message or self.personal_message or "").strip()
+        if not url:
+            raise ValueError("Missing URL (twitterUrl or x_url)")
+        if not msg:
+            raise ValueError("Missing message (message or personal_message)")
+        return url, msg
 
 
 class BatchItemResult(BaseModel):
@@ -25,6 +62,9 @@ class SendMessagesBatchResponse(BaseModel):
 
 
 app = FastAPI(title="Real Browser Messaging API", version="0.1.0")
+
+# Basic logging so we see failures in server logs (not only 200 OK)
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 # Allow local dev from Next.js on :3000 by default.
 frontend_origin = os.getenv("FRONTEND_ORIGIN", "http://localhost:3000")
@@ -52,12 +92,20 @@ async def send_messages(
     chrome_user_data_dir: Optional[str] = Query(None, description="Browser user-data-dir for Chrome profile"),
 ) -> SendMessagesBatchResponse:
     results: list[BatchItemResult] = []
+    logging.info("/send-messages: received %d item(s)", len(items))
     for item in items:
-        x_url = str(item.x_url)
+        try:
+            x_url, personal_message = item.normalized()
+        except Exception as e:  # noqa: BLE001
+            # Could not normalize this item; report error and continue
+            logging.error("Validation error for item: %s", e)
+            results.append(BatchItemResult(id="<unknown>", status="error", detail=str(e)))
+            continue
+
         try:
             await send_message_with_browser(
                 x_url=x_url,
-                personal_message=item.personal_message,
+                personal_message=personal_message,
                 model=model,
                 azure_api_key=azure_api_key,
                 azure_endpoint=azure_endpoint,
@@ -66,6 +114,8 @@ async def send_messages(
             )
             results.append(BatchItemResult(id=x_url, status="ok"))
         except Exception as e:  # noqa: BLE001
+            # Log full traceback so server console shows why the browser/LLM run failed
+            logging.exception("Failed to send message for %s: %s", x_url, e)
             results.append(BatchItemResult(id=x_url, status="error", detail=str(e)))
     return SendMessagesBatchResponse(results=results)
 

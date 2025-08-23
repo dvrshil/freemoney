@@ -10,6 +10,13 @@ This backend wraps `backend/real_browser.py` with a FastAPI server exposing a ba
 ```
 POST /send-messages
 Content-Type: application/json
+// Preferred (matches frontend):
+[
+  { "twitterUrl": "https://x.com/target1", "message": "hello one" },
+  { "twitterUrl": "https://x.com/target2", "message": "hello two" }
+]
+
+// Also supported (backwards compatible):
 [
   { "x_url": "https://x.com/target1", "personal_message": "hello one" },
   { "x_url": "https://x.com/target2", "personal_message": "hello two" }
@@ -33,13 +40,15 @@ Content-Type: application/json
 ## Environment Variables
 Provide these via `.env` in `backend/` (or the project root), or the process environment:
 
-- AZURE_OPENAI_API_KEY
-- AZURE_OPENAI_ENDPOINT
-- AZURE_OPENAI_MODEL (default: `gpt-5-mini`)
+- OPENAI_API_KEY (required)
+- OPENAI_MODEL (optional, fallback if no `model` query param)
 - BROWSER_EXECUTABLE_PATH (default: macOS Chrome path)
 - BROWSER_USER_DATA_DIR (default: `~/.config/browseruse/profiles/real-chrome`)
 - FRONTEND_ORIGIN (default: `http://localhost:3000` for local CORS)
 - PORT (default: `8000`)
+
+Note: The current implementation wires `browser_use` with OpenAI. Azure variables
+(`AZURE_OPENAI_*`) are not consumed yet.
 
 See `.env.example` for the list without values.
 

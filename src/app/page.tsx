@@ -23,7 +23,11 @@ export default function Home() {
   const [aboutStartup, setAboutStartup] = useState('')
   const [selectedIndustries, setSelectedIndustries] = useState<string[]>([])
   const [isLoading, setIsLoading] = useState(false)
+  const [isSending, setIsSending] = useState(false)
   const [results, setResults] = useState<any>(null)
+  const [dmResult, setDmResult] = useState<{
+    results: { id: string; status: string; detail?: string }[]
+  } | null>(null)
   
   const findInvestors = useAction(api.findInvestors.findRelevantInvestors)
 
@@ -51,6 +55,7 @@ export default function Home() {
 
     setIsLoading(true)
     setResults(null)
+    setDmResult(null)
 
     try {
       // Call Convex action for LLM summarization → embedding → vector search
@@ -73,19 +78,34 @@ export default function Home() {
       console.log(`Found ${result.totalFound} top matching investors`)
       
       // Send the DM payload to the backend
-      fetch('http://localhost:8000/send-messages', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(result.dmPayload)
-      })
-        .then(response => {
-          console.log('Backend response:', response.status)
+      setIsSending(true)
+      try {
+        const resp = await fetch('http://localhost:8000/send-messages', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(result.dmPayload),
         })
-        .catch(error => {
-          console.error('Error sending to backend:', error)
-        })
+        const text = await resp.text()
+        let json: any = null
+        try {
+          json = text ? JSON.parse(text) : null
+        } catch (e) {
+          // keep raw text if non-JSON
+        }
+        if (!resp.ok) {
+          console.error('Backend error:', resp.status, text)
+          alert(`Backend error ${resp.status}: ${text || 'See console'}`)
+        } else if (json) {
+          console.log('Backend response JSON:', json)
+          setDmResult(json)
+        } else {
+          console.log('Backend response (no JSON):', text)
+        }
+      } finally {
+        setIsSending(false)
+      }
     } catch (error) {
       console.error('Error finding investors:', error)
       alert('Error finding investors. Check the console for details.')
@@ -99,6 +119,7 @@ export default function Home() {
     setAboutStartup('')
     setSelectedIndustries([])
     setResults(null)
+    setDmResult(null)
   }
 
   return (
@@ -296,9 +317,42 @@ export default function Home() {
               </div>
               
               <div className="mt-4 p-3 rounded-lg bg-[color:var(--surface-2)] border border-[color:var(--border)]">
-                <p className="text-xs text-[color:var(--muted, #8b9891)]">
-                  DM payload sent to backend
-                </p>
+                <div className="flex items-center justify-between">
+                  <p className="text-xs text-[color:var(--muted, #8b9891)]">
+                    {isSending ? 'Sending DMs…' : dmResult ? 'DM results' : 'Ready to send DMs'}
+                  </p>
+                </div>
+
+                {dmResult && (
+                  <div className="mt-3 space-y-2">
+                    {dmResult.results.map((r, idx) => (
+                      <div
+                        key={`${r.id}-${idx}`}
+                        className="rounded-lg border border-[color:var(--border)] bg-[color:var(--surface)] px-3 py-2"
+                      >
+                        <div className="flex items-center justify-between gap-3">
+                          <span className="text-sm truncate" title={r.id}>
+                            {r.id}
+                          </span>
+                          <span
+                            className={`text-xs px-2 py-1 rounded-md ${
+                              r.status === 'ok'
+                                ? 'bg-[color:var(--accent-strong)] text-[color:var(--foreground)]'
+                                : 'bg-[color:var(--surface-2)] text-[color:var(--muted, #8b9891)]'
+                            }`}
+                          >
+                            {r.status}
+                          </span>
+                        </div>
+                        {r.status !== 'ok' && r.detail && (
+                          <p className="mt-1 text-xs text-[color:var(--muted, #8b9891)] truncate" title={r.detail}>
+                            {r.detail}
+                          </p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
           )}
