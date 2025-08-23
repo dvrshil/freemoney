@@ -63,14 +63,29 @@ export default function Home() {
       console.log('Found investors:', result)
       setResults(result)
       
-      // Log detailed results to console
+      // Log the DM payload for backend endpoint
+      console.log('\n=== DM PAYLOAD FOR BACKEND ===')
+      console.log(JSON.stringify(result.dmPayload, null, 2))
+      console.log('=== END DM PAYLOAD ===\n')
+      
+      // Also log summary for reference
       console.log('Summary:', result.summary)
-      console.log(`Found ${result.totalFound} matching investors:`)
-      result.investors.forEach((inv: any, i: number) => {
-        console.log(`${i + 1}. ${inv.name} (${inv.firm || 'Angel'}) - Score: ${inv.score?.toFixed(3)}`)
-        console.log(`   Industries: ${inv.industries.join(', ')}`)
-        console.log(`   Twitter: @${inv.username}`)
+      console.log(`Found ${result.totalFound} top matching investors`)
+      
+      // Send the DM payload to the backend
+      fetch('http://localhost:8000/send-messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(result.dmPayload)
       })
+        .then(response => {
+          console.log('Backend response:', response.status)
+        })
+        .catch(error => {
+          console.error('Error sending to backend:', error)
+        })
     } catch (error) {
       console.error('Error finding investors:', error)
       alert('Error finding investors. Check the console for details.')
@@ -158,6 +173,23 @@ export default function Home() {
                 Industry focus
               </label>
               <div className="grid grid-cols-2 gap-3 p-4 rounded-xl border border-[color:var(--border)] bg-[color:var(--surface-2)]">
+                <label
+                  className="flex items-center gap-2 cursor-pointer hover:bg-[color:var(--surface)] p-2 rounded-lg transition col-span-2 border-b border-[color:var(--border)] pb-3 mb-1"
+                >
+                  <input
+                    type="checkbox"
+                    checked={selectedIndustries.length === INDUSTRIES.length}
+                    onChange={() => {
+                      if (selectedIndustries.length === INDUSTRIES.length) {
+                        setSelectedIndustries([])
+                      } else {
+                        setSelectedIndustries([...INDUSTRIES])
+                      }
+                    }}
+                    className="w-4 h-4 rounded border border-[color:var(--border)] text-[color:var(--accent-strong)] focus:ring-[color:var(--accent-strong)] focus:ring-2"
+                  />
+                  <span className="text-sm font-medium">Select All</span>
+                </label>
                 {INDUSTRIES.map((industryOption) => (
                   <label
                     key={industryOption}
@@ -195,15 +227,78 @@ export default function Home() {
           
           {/* Results Display */}
           {results && (
-            <div className="mt-6 p-4 rounded-xl border border-[color:var(--border)] bg-[color:var(--surface-2)]">
-              <h3 className="text-lg font-medium mb-3">
-                Found {results.totalFound} Relevant Investors
+            <div className="mt-6">
+              <h3 className="text-lg font-medium mb-4">
+                Top {results.totalFound} Matched Investors
               </h3>
-              <p className="text-sm text-[color:var(--muted, #8b9891)] mb-3">
-                Check your browser console for detailed results
-              </p>
-              <div className="text-xs text-[color:var(--muted, #8b9891)]">
-                Summary: {results.summary?.summary?.slice(0, 200)}...
+              
+              <div className="space-y-4">
+                {results.investors.map((investor: any, index: number) => (
+                  <div 
+                    key={investor.id || index}
+                    className="p-5 rounded-xl border border-[color:var(--border)] bg-[color:var(--surface-2)] hover:bg-[color:var(--surface)] transition"
+                  >
+                    <div className="flex justify-between items-start mb-3">
+                      <div>
+                        <h4 className="font-medium text-base">
+                          {investor.name}
+                        </h4>
+                        <p className="text-sm text-[color:var(--muted, #8b9891)]">
+                          {investor.firm || 'Angel Investor'} {investor.position ? `• ${investor.position}` : ''}
+                        </p>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-xs bg-[color:var(--accent-strong)] text-[color:var(--foreground)] px-2 py-1 rounded-lg">
+                          {Math.round((investor._score || 0) * 100)}% match
+                        </span>
+                        <a 
+                          href={investor.twitter_url || `https://twitter.com/${investor.username}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-[color:var(--accent-strong)] hover:underline"
+                        >
+                          @{investor.username}
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <div className="mb-3">
+                      <p className="text-xs text-[color:var(--muted, #8b9891)] mb-1">Industries:</p>
+                      <div className="flex flex-wrap gap-1">
+                        {investor.industries.map((industry: string) => (
+                          <span 
+                            key={industry}
+                            className="text-xs px-2 py-1 rounded-md bg-[color:var(--surface)] border border-[color:var(--border)]"
+                          >
+                            {industry}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    
+                    <div className="bg-[color:var(--surface)] rounded-lg p-3">
+                      <p className="text-xs text-[color:var(--muted, #8b9891)] mb-2">Personalized DM:</p>
+                      <p className="text-sm mb-3 font-mono">
+                        {investor.personalizedMessage}
+                      </p>
+                      <button
+                        onClick={() => {
+                          navigator.clipboard.writeText(investor.personalizedMessage)
+                          alert('Message copied to clipboard!')
+                        }}
+                        className="text-xs px-3 py-1.5 rounded-lg bg-[color:var(--accent-strong)] text-[color:var(--foreground)] hover:opacity-90 transition"
+                      >
+                        Copy Message
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              
+              <div className="mt-4 p-3 rounded-lg bg-[color:var(--surface-2)] border border-[color:var(--border)]">
+                <p className="text-xs text-[color:var(--muted, #8b9891)]">
+                  DM payload sent to backend
+                </p>
               </div>
             </div>
           )}

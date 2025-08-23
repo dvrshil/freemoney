@@ -65,4 +65,18 @@
 - **Solution**: Run database queries to check actual field values, then ensure frontend constants match exactly
 - **Example**: Frontend "Consumer" vs Database "Consumer Internet & Commerce" - use `npx convex run table:debugQuery` to check actual values
 
+### Avoid Over-Engineering Simple Features
+
+- **Rule**: Implement the simplest solution first - avoid adding state management, error handling UI, or complex feedback unless explicitly requested
+- **Context**: Adding unnecessary complexity (multiple state variables, detailed error messages, loading states) when user just wants basic functionality
+- **Solution**: Start with minimal implementation (e.g., simple fetch call with console.log), only add complexity if user asks for it
+- **Example**: For "send to backend", just use `fetch().then().catch()` with console logging, not state management with UI feedback
+
+### Convex Deployment Commands
+
+- **Rule**: Use `npx convex dev` to deploy changes to development, not `npx convex deploy`
+- **Context**: `npx convex deploy` attempts to deploy to production and fails in non-interactive terminals when it asks for confirmation
+- **Solution**: Start `npx convex dev` in background to auto-deploy changes to development environment
+- **Example**: Use `npx convex dev` with `run_in_background: true` then kill the process when done
+
 # IMPORTANT If you ever start processes, make sure to always kill them before the end of the conversation.
