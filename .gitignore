@@ -44,4 +44,4 @@ next-env.d.ts
 twitter_config.json
 dm_check_progress.json
 dm_check_errors.json
-
+.env.local
