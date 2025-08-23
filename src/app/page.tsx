@@ -6,20 +6,20 @@ type Phase = "idle" | "loading" | "results";
 
 const STEP_MESSAGES = [
   "Analyzing your founder profile",
-  "Understanding your startup story",
-  "Scanning industry focus",
-  "Matching to investor theses",
-  "Scoring fit and traction",
-  "Selecting top investors",
+  "Understanding your startup",
+  "Matching angels and VCs",
+  "Scoring fit and thesis",
+  "Drafting personalized intros",
+  "Preparing Twitter DMs",
 ];
 
 const STEP_ICONS = [
   "person",
-  "description",
-  "sell",
-  "track_changes",
+  "rocket_launch",
+  "person_search",
   "insights",
-  "grade",
+  "quickreply",
+  "send",
 ] as const;
 
 const INDUSTRIES = [
@@ -75,7 +75,7 @@ export default function Home() {
   }, [phase]);
 
   const onSearch = () => {
-    // Simple validation for demo polish
+    // Require both fields for a more useful match
     if (!aboutYou.trim() || !aboutStartup.trim()) {
       alert("Please fill in both text areas to start the search.");
       return;
@@ -91,12 +91,23 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-6 sm:p-10">
       <main className="w-full max-w-4xl">
+        <div className="mb-6 sm:mb-8">
+          <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">freemoney.baby</h1>
+        </div>
         <section className="rounded-2xl bg-[color:var(--surface)] backdrop-blur px-6 sm:px-8 py-7 shadow-[0_1px_0_rgba(0,0,0,0.35),0_20px_60px_-24px_rgba(0,0,0,0.5)] ring-1 ring-[color:var(--border)]">
           <header className="mb-6">
-            <h1 className="text-2xl font-semibold tracking-tight">Investor Match Demo</h1>
-            <p className="text-sm text-[color:var(--muted, #b8c2bc)] mt-1">
-              Minimal, material‑inspired UI. Uses dummy data; no external calls.
-            </p>
+            <div className="flex items-center justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-medium tracking-tight">Outreach Agent</h2>
+                <p className="text-sm text-[color:var(--muted, #8b9891)] mt-1">
+                  Match the right angels/VCs and draft DM intros.
+                </p>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-[color:var(--muted, #8b9891)]">
+                <span className="msr" aria-hidden>chat</span>
+                <span>Twitter connected</span>
+              </div>
+            </div>
           </header>
 
           {phase === "idle" && (
@@ -182,9 +193,9 @@ export default function Home() {
                   <div className="flex items-center gap-4">
                     <div className="spinner" aria-hidden />
                     <div>
-                      <p className="text-base font-medium">Finding relevant investors…</p>
-                      <p className="text-xs text-[color:var(--muted, #b8c2bc)] mt-1">
-                        Our matching algorithm is analyzing your details and industry focus.
+                      <p className="text-base font-medium">Finding the best people to DM…</p>
+                      <p className="text-xs text-[color:var(--muted, #8b9891)] mt-1">
+                        Matching angels/VCs based on your details and focus.
                       </p>
                     </div>
                   </div>
@@ -220,7 +231,7 @@ export default function Home() {
                               {state === "done" ? "check_circle" : STEP_ICONS[i]}
                             </span>
                           </span>
-                          <span className={i <= stepIndex ? "text-base" : "text-base text-[color:var(--muted, #b8c2bc)]"}>{msg}</span>
+                          <span className={i <= stepIndex ? "text-base" : "text-base text-[color:var(--muted, #8b9891)]"}>{msg}</span>
                         </div>
                       );
                     })}
@@ -242,9 +253,9 @@ export default function Home() {
           {phase === "results" && (
             <div className="grid gap-6">
               <div>
-                <h2 className="text-lg font-medium">Top investor matches</h2>
-                <p className="text-sm text-[color:var(--muted, #b8c2bc)] mt-1">
-                  Based on your details and industry focus: {industry}
+                <h2 className="text-lg font-medium">Top angel & VC matches</h2>
+                <p className="text-sm text-[color:var(--muted, #8b9891)] mt-1">
+                  Scope: {industry}
                 </p>
               </div>
               <ul className="grid sm:grid-cols-2 gap-3">
@@ -256,9 +267,11 @@ export default function Home() {
                     <div className="flex items-center justify-between gap-4">
                       <div className="min-w-0">
                         <p className="font-medium truncate">{name}</p>
-                        <p className="text-xs text-[color:var(--muted, #b8c2bc)] truncate">Stage-agnostic • Lead/Follow</p>
+                        <p className="text-xs text-[color:var(--muted, #8b9891)] truncate">Pre‑seed/Seed • Ready for DM</p>
                       </div>
-                      <span className="text-xs rounded-full px-2 py-1 ring-1 ring-[color:var(--border)] text-[color:var(--muted, #b8c2bc)]">Investor</span>
+                      <span className="inline-flex items-center gap-1 text-xs rounded-full px-2 py-1 ring-1 ring-[color:var(--border)] text-[color:var(--muted, #8b9891)]">
+                        <span className="msr" aria-hidden>send</span> DM
+                      </span>
                     </div>
                   </li>
                 ))}

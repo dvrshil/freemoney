@@ -1,35 +1,40 @@
 # Repository Guidelines
 
-## Project Structure & Module Organization
-- App Router: `src/app/**` with route segments (`page.tsx`, `layout.tsx`).
-- Assets: `public/*` for static files (SVGs, images).
-- Styling: `src/app/globals.css` with Tailwind CSS (via `@tailwindcss/postcss`).
-- Config: `tsconfig.json` (path alias `@/*`), `eslint.config.mjs`, `next.config.ts`, `postcss.config.mjs`.
-- Package scripts and deps live in `package.json`.
+## Project Structure & Modules
+- App Router: `src/app/**` with `layout.tsx` and `page.tsx`.
+- Entry UI: `src/app/page.tsx` is a Client Component powering “freemoney.baby” Outreach Agent with two fields (About you, About your startup), an industry dropdown, animated loading steps, and a results list.
+- Styling: `src/app/globals.css` defines a dark grey‑green theme via CSS variables and small animation utilities.
+- Assets: `public/*` for static files. Config lives in `tsconfig.json`, `eslint.config.mjs`, `next.config.ts`, `postcss.config.mjs`.
 
-## Build, Test, and Development Commands
-- `npm run dev`: Start local dev server at `http://localhost:3000`.
-- `npm run build`: Create a production build (`.next/`).
+## Build & Development
+- `npm run dev`: Run locally at `http://localhost:3000`.
+- `npm run build`: Production build to `.next/`.
 - `npm start`: Serve the production build.
-- `npm run lint`: Run ESLint checks. Use `npx eslint . --fix` to auto-fix.
+- `npm run lint`: ESLint checks; use `npx eslint . --fix` to auto-fix.
 
-## Coding Style & Naming Conventions
-- Language: TypeScript (strict). Prefer functional components and App Router patterns.
-- Names: Components in PascalCase; hooks/utilities in `camelCase`; route files as `page.tsx`/`layout.tsx`.
-- Imports: Use `@/*` alias for `src/*`.
-- Lint: Fix all ESLint errors; justify any `eslint-disable` with a comment.
+## Theming & Icons
+- Theme tokens (globals.css): `--background`, `--foreground`, `--surface`, `--surface-2`, `--border`, `--accent`, `--accent-strong`, `--muted`.
+- Use with Tailwind arbitrary values, e.g., `bg-[color:var(--surface)]`.
+- Icons: Material Symbols Rounded via `<link>` in `layout.tsx`. Render with `<span class="msr">icon_name</span>` (no emojis).
+- Animations: `.spinner` (ring), `.dot` (pulsing dots), `.progress-fill` (eased width), `.pulse-soft` (active step).
+
+## Coding Style & Conventions
+- TypeScript (strict). Prefer functional components and App Router patterns.
+- Names: Components in PascalCase; hooks/utilities in `camelCase`.
+- Client vs SSR: Keep non‑deterministic logic in Client Components. `layout.tsx` uses `suppressHydrationWarning` to avoid dev hydration noise—do not rely on it to mask SSR issues.
+- Imports: Use `@/*` alias for `src/*`. Fix ESLint errors or document exceptions inline.
 
 ## Testing Guidelines
-- No test runner is configured yet. If adding tests:
-  - Unit: `src/__tests__` with `*.test.ts` or `*.test.tsx`.
-  - E2E: consider Playwright in `e2e/` with clear, reliable selectors.
-- Focus on critical paths; avoid brittle snapshots. Ensure tests run in CI before merging.
+- No tests configured yet. If adding:
+  - Unit: `src/__tests__` with `*.test.ts(x)`.
+  - E2E: Playwright in `e2e/`; prefer stable `data-testid` hooks.
+- Validate key flows: form → loading steps → results. Avoid brittle animation timing assertions.
 
-## Commit & Pull Request Guidelines
-- Commits: Use Conventional Commits (`feat:`, `fix:`, `chore:`, etc.). Current history has no convention—adopt this going forward.
-- PRs: Include a clear description, linked issues, screenshots/GIFs for UI changes, and validation steps. Ensure `npm run lint` and `npm run build` pass locally.
+## Commit & PR Guidelines
+- Commits: Conventional Commits (`feat:`, `fix:`, `chore:`, etc.).
+- PRs: Describe UX changes; include screenshots/GIFs. Ensure `npm run lint` and `npm run build` pass.
 
-## Security & Misc
-- Telemetry: Do not use Sentry anywhere.
-- Secrets: Never commit secrets. Use `.env.local`; document required keys in `README.md` without values.
-- Notebooks: If adding Jupyter notebooks, keep code simple and do not run/save outputs in the repo.
+## Security & Notes
+- Telemetry: do not use Sentry anywhere.
+- Secrets: never commit. Use `.env.local`; document required keys (no values) in `README.md`.
+- Notebooks: if added, keep code minimal in‑notebook and do not execute/save outputs.
