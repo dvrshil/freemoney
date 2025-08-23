@@ -1,4 +1,4 @@
-import { mutation } from "./_generated/server";
+import { mutation, query, internalQuery } from "./_generated/server";
 import { v } from "convex/values";
 
 export const upsertByTwitter = mutation({
@@ -75,5 +75,47 @@ export const upsertByTwitter = mutation({
       username: args.username,
       source: args.source,
     });
+  },
+});
+
+// Internal query to get investor by ID
+export const getById = internalQuery({
+  args: { id: v.id("investors") },
+  handler: async (ctx, args) => {
+    return await ctx.db.get(args.id);
+  },
+});
+
+// Debug query to check investor count and sample data
+export const debugInvestors = query({
+  args: {},
+  handler: async (ctx) => {
+    const allInvestors = await ctx.db.query("investors").collect();
+    
+    // Get industry distribution
+    const industryMap = new Map<string, number>();
+    allInvestors.forEach(inv => {
+      inv.industries?.forEach(ind => {
+        industryMap.set(ind, (industryMap.get(ind) || 0) + 1);
+      });
+    });
+    
+    // Sample a few investors
+    const sample = allInvestors.slice(0, 3).map(inv => ({
+      name: inv.name,
+      firm: inv.firm,
+      industries: inv.industries,
+      dm_open_status: inv.dm_open_status,
+      has_embedding: inv.embedding?.length > 0,
+      embedding_dimensions: inv.embedding?.length,
+    }));
+    
+    return {
+      total_count: allInvestors.length,
+      with_open_dms: allInvestors.filter(inv => inv.dm_open_status === 'open').length,
+      with_embeddings: allInvestors.filter(inv => inv.embedding?.length > 0).length,
+      industry_distribution: Object.fromEntries(industryMap),
+      sample_investors: sample,
+    };
   },
 });

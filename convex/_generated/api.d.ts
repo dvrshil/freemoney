@@ -13,8 +13,9 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
+import type * as findInvestors from "../findInvestors.js";
 import type * as investors from "../investors.js";
-import type * as tasks from "../tasks.js";
+import type * as lib_summarySchema from "../lib/summarySchema.js";
 
 /**
  * A utility for referencing Convex functions in your app's API.
@@ -25,8 +26,9 @@ import type * as tasks from "../tasks.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
+  findInvestors: typeof findInvestors;
   investors: typeof investors;
-  tasks: typeof tasks;
+  "lib/summarySchema": typeof lib_summarySchema;
 }>;
 export declare const api: FilterApi<
   typeof fullApi,
