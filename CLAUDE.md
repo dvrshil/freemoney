@@ -25,3 +25,9 @@
 - **Context**: Complex Python syntax (especially f-strings with quotes) often causes syntax errors in single-line bash commands  
 - **Solution**: Write separate `.py` files for any Python logic beyond simple one-liners
 - **Example**: Instead of `python3 -c "complex_code_with_fstrings"` → create `analyze.py` file and run `python3 analyze.py`
+
+### Next.js/Convex Environment Variables
+- **Rule**: Always load both `.env` and `.env.local` files when writing Node.js scripts for Next.js/Convex projects
+- **Context**: Next.js projects split environment variables between `.env` (general) and `.env.local` (deployment-specific). Convex URLs are in `.env.local`, API keys often in `.env`
+- **Solution**: Use `dotenv.config()` followed by `dotenv.config({ path: '.env.local' })` to load both files
+- **Example**: Scripts accessing both `OPENAI_API_KEY` and `NEXT_PUBLIC_CONVEX_URL` need both env files loaded
