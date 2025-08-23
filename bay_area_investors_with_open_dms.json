@@ -1,0 +1,1986 @@
+[
+  {
+    "name": "Brianne Kimmel",
+    "position": "managing_partner",
+    "min_investment": "50000",
+    "firm": "WorkLife Ventures",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMjEzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e48fa6ce80498be32e6422673b830d37e44d6470/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "New York, New York",
+      "Los Angeles, California",
+      "Los Angeles / Southern California",
+      "New York City",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Data & AI",
+      "Angel, Scout, and Solo-Capitalists",
+      "DevTools & Infrastructure",
+      "Enterprise Software",
+      "Industrial & Robotics",
+      "Mobility & Travel"
+    ],
+    "enrichment": {
+      "investor_name": "Brianne Kimmel",
+      "firm_name": "Worklife Ventures",
+      "personal_bio": "Founder and Managing Partner of Worklife Ventures, an early-stage VC focused on the future of work. Former head of GTM/self\u2011serve strategy at Zendesk; previously worked in growth at Expedia and taught at General Assembly. Based in the San Francisco Bay Area.",
+      "interests": [
+        "Future of work / remote & hybrid work tooling",
+        "Developer tools & infrastructure",
+        "AI\u2011powered productivity and workflow tools",
+        "Creator economy & SMB/SMB tools",
+        "HRTech / talent tooling"
+      ],
+      "career_background": "Brianne Kimmel founded Worklife Ventures in 2019 and leads the firm\u2019s seed and early-stage investments into companies reshaping how people work. Prior to launching the firm she led go\u2011to\u2011market and self\u2011serve revenue strategy at Zendesk, worked on user growth at Expedia, participated in Y Combinator (W16), and taught product/marketing at General Assembly.",
+      "previous_investments": [
+        "Webflow",
+        "Supabase",
+        "Deel",
+        "Pipe",
+        "Hopin",
+        "Public (Public.com)",
+        "Polywork",
+        "Stability AI",
+        "Tome",
+        "Artifact",
+        "Viable",
+        "Superpeer",
+        "Command E",
+        "Poised",
+        "Omneky"
+      ],
+      "hometown": "Youngstown, Ohio",
+      "personal_twitter_profile": "https://twitter.com/briannekimmel",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": "https://twitter.com/worklifevc",
+      "firm_linkedin_url": "https://www.linkedin.com/company/work-life-ventures",
+      "investment_focus": "Seed and early-stage investments in future-of-work SaaS, developer tools, AI/ML productivity tooling, creator-economy and SMB-focused platforms."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:51:26.741299",
+      "username": "briannekimmel"
+    }
+  },
+  {
+    "name": "Chon Tang",
+    "position": "general_partner",
+    "min_investment": "100000",
+    "firm": "Berkeley Skydeck Fund",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBLzBpQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--55aaced445fdd2f0ce2676ebc408b5d1462aa60a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "Berkeley, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Industrial & Robotics"
+    ],
+    "enrichment": {
+      "investor_name": "Chon Tang",
+      "firm_name": "Berkeley SkyDeck Fund",
+      "personal_bio": "Founding & General Partner at the Berkeley SkyDeck Fund. Silicon Valley engineer, entrepreneur and investor; former founding partner and Managing Director of Junzi Capital Engineering. Holds a B.S. in EECS from UC Berkeley and an S.M. in EECS from MIT; active angel/institutional investor with multiple exits.",
+      "interests": [
+        "Early-stage startups (seed/accelerator)",
+        "Deep tech and university spinouts",
+        "Space technologies (satellite/optical comms)",
+        "AI / machine learning",
+        "Global founders and cross-border startups"
+      ],
+      "career_background": "Chon Tang is an engineer-turned-investor and entrepreneur. He co-founded Catchpod, served as founding partner and Managing Director of Junzi Capital Engineering (a quantitative trading firm), and is founding partner of the Berkeley SkyDeck Fund, the investment arm of UC Berkeley\u2019s SkyDeck accelerator. He holds a B.S. (EECS) from UC Berkeley and an S.M. (EECS) from MIT.",
+      "previous_investments": [
+        "Skyloom",
+        "4D Sight",
+        "SEMRON",
+        "BlazingDB",
+        "Mira",
+        "Catchpod"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/chontang",
+      "personal_linkedin_url": "https://www.linkedin.com/in/chontang",
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": "https://www.linkedin.com/company/skydeck-berkeley",
+      "investment_focus": "Invests at accelerator/seed stage into early-stage and university-affiliated startups (SkyDeck accelerator checks), with follow-on participation into Series A+; sector focus includes consumer, enterprise, digital health and information technology, and deep/space technologies."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:52:25.017261",
+      "username": "chontang"
+    }
+  },
+  {
+    "name": "Rahul Vohra",
+    "position": "angel",
+    "min_investment": "100000",
+    "firm": "Todd and Rahul's Angel Fund",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNytCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0ee4d4d191b27d5de1d5bb733f3f9f116c064217/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area",
+      "San Francisco, California"
+    ],
+    "industries": [
+      "Angel, Scout, and Solo-Capitalists",
+      "Healthcare & Bio",
+      "Consumer Internet & Commerce",
+      "Enterprise Software"
+    ],
+    "enrichment": {
+      "investor_name": "Rahul Vohra",
+      "firm_name": "Todd and Rahul's Angel Fund",
+      "personal_bio": "Rahul Vohra is founder and CEO of Superhuman and co-founder of Todd and Rahul's Angel Fund. He previously co-founded Rapportive (acquired by LinkedIn). He is an active angel investor and advisor to early-stage startups across SaaS, developer tools and consumer products.",
+      "interests": [
+        "Productivity and email tools",
+        "Viral SaaS & go-to-market",
+        "Creator/maker tools",
+        "Business infrastructure & developer tools",
+        "Health, fitness & wellness"
+      ],
+      "career_background": "Rahul Vohra studied computer science at the University of Cambridge and co-founded Rapportive, which was acquired by LinkedIn. He later founded Superhuman, where he serves as CEO. Vohra co-founded Todd and Rahul's Angel Fund with Todd Goldberg and is an active angel investor and advisor to numerous startups, focusing on product, go-to-market and fundraising support.",
+      "previous_investments": [
+        "Supabase",
+        "Placer.ai",
+        "Mercury",
+        "ClassDojo",
+        "Clearbit",
+        "EasyPost",
+        "NexHealth",
+        "Descript",
+        "Dapper Labs",
+        "Haus",
+        "Alt",
+        "AtoB",
+        "Clubhouse",
+        "Scratchpad",
+        "Levels"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/rahulvohra",
+      "personal_linkedin_url": "https://www.linkedin.com/in/rahulvohra/",
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": null,
+      "investment_focus": "Pre-seed and seed-focused angel fund (occasionally post-seed/Series A). Sectors of interest include productivity/email, viral SaaS, creator tools, business infrastructure and health/wellness; typical check size $300k\u2013$500k."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:52:32.174238",
+      "username": "rahulvohra"
+    }
+  },
+  {
+    "name": "Andrew Dumont",
+    "position": "investor",
+    "min_investment": "100000",
+    "firm": "Curious Capital",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMGRUQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a3c7e672aaca6494269a2b122c73091ea753ac9a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "Seattle, Washington",
+      "Portland, Oregon",
+      "New York, New York",
+      "San Francisco, California",
+      "New York City",
+      "San Francisco Bay Area",
+      "Seattle / Portland"
+    ],
+    "industries": [
+      "Data & AI",
+      "DevTools & Infrastructure",
+      "Consumer Internet & Commerce",
+      "Enterprise Software"
+    ],
+    "enrichment": {
+      "investor_name": "Andrew Dumont",
+      "firm_name": "Curious (curious.vc)",
+      "personal_bio": "Operator and investor; founder and CEO of Curious, a long\u2011term holding company that buys and grows software businesses. Former CMO at Bitly and former CEO of Stamped, with a background in growth and product\u2011led SaaS.",
+      "interests": [
+        "SaaS & software businesses",
+        "Acquiring/operating distressed or undercapitalized software companies",
+        "Growth marketing and go\u2011to\u2011market strategy",
+        "Founder\u2011friendly, long\u2011term stewardship"
+      ],
+      "career_background": "Andrew Dumont is a serial operator turned investor. He co\u2011founded and runs Curious (formerly Curious VC), served as CMO of Bitly, was CEO of Stamped, and held roles at betaworks, Moz and other startups. He focuses on building and operating software companies and providing liquidity or long\u2011term homes for founders.",
+      "previous_investments": [
+        "Convox",
+        "BuildFire",
+        "Avenue",
+        "Polymer",
+        "Loftium",
+        "Makara",
+        "Jargon",
+        "Reclaim.ai",
+        "Caravel",
+        "Bytewax",
+        "Trainiac",
+        "Async"
+      ],
+      "hometown": "Seattle, Washington",
+      "personal_twitter_profile": "https://twitter.com/AndrewDumont",
+      "personal_linkedin_url": "https://www.linkedin.com/in/andrewdumont/",
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": null,
+      "investment_focus": "Software-focused investments (SaaS, developer tools); seed/pre-seed minority investments and majority/distressed/special\u2011situation acquisitions and operational turnarounds."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:52:41.735857",
+      "username": "AndrewDumont"
+    }
+  },
+  {
+    "name": "Hunter Walk",
+    "position": "general_partner",
+    "min_investment": "50000",
+    "firm": "Homebrew",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM1huQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0121db1d592b1e5e0471f2caf37602413851c53c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "Global",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Healthcare & Bio",
+      "FinTech",
+      "Consumer Internet & Commerce",
+      "Enterprise Software"
+    ],
+    "enrichment": {
+      "investor_name": "Hunter Walk",
+      "firm_name": "Homebrew",
+      "personal_bio": "Partner and co-founder at Homebrew, a San Francisco\u2013based seed-stage venture firm. Former product leader at YouTube/Google; founding product/marketing member at Linden Lab. Holds a BA from Vassar and an MBA from Stanford; invests primarily at seed/pre-seed stages.",
+      "interests": [
+        "Seed-stage startups",
+        "FinTech & payments",
+        "SaaS & developer tools",
+        "Marketplaces (\"bottom-up\" economy)",
+        "APIs & infrastructure",
+        "AI/ML"
+      ],
+      "career_background": "Co-founded Homebrew in 2013 and serves as a partner investing in early-stage companies. Previously led consumer product management at YouTube (after joining Google in 2003) and was a founding product/marketing team member at Linden Lab; earlier roles include management consulting and work in media. Education: BA (Vassar) and MBA (Stanford).",
+      "previous_investments": [
+        "Plaid",
+        "Chime",
+        "Cruise",
+        "Gusto",
+        "Bowery Farming",
+        "Finix",
+        "Shield AI",
+        "Graphite",
+        "Noyo",
+        "Orum",
+        "Assembly",
+        "Granola",
+        "Reken",
+        "Resq",
+        "Sanzo"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/hunterwalk",
+      "personal_linkedin_url": "https://www.linkedin.com/in/hunterwalk",
+      "firm_twitter_profile": "https://twitter.com/homebrew",
+      "firm_linkedin_url": "https://www.linkedin.com/company/homebrewvc",
+      "investment_focus": "Seed-stage (pre-seed to Series A); focus on fintech, SaaS, marketplaces, APIs/developer infrastructure, and AI/ML."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:52:45.864629",
+      "username": "hunterwalk"
+    }
+  },
+  {
+    "name": "Sam Lessin",
+    "position": "general_partner",
+    "min_investment": "100000",
+    "firm": "Slow Ventures",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBenZEQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bd0ec2fdeeaec928602856277710d91d2b272623/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "Menlo Park, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Consumer Internet & Commerce",
+      "FinTech",
+      "Enterprise Software",
+      "Web3"
+    ],
+    "enrichment": {
+      "investor_name": "Sam Lessin",
+      "firm_name": "Slow Ventures",
+      "personal_bio": "Sam Lessin is a General Partner and co\u2011founder at Slow Ventures. He previously co\u2011founded drop.io (acquired by Facebook) and co\u2011founded Fin; he served as VP of Product at Facebook (2010\u20132014). He is an active early\u2011stage investor with bets across consumer, fintech, crypto and creator\u2011economy companies.",
+      "interests": [
+        "Creator economy & creators-as-founders",
+        "Crypto / blockchain infrastructure",
+        "Consumer / DTC brands",
+        "Fintech & payments",
+        "Early\u2011stage SaaS and platform startups"
+      ],
+      "career_background": "Started his career at Bain & Company, founded drop.io (acquired by Facebook in 2010), then served as VP of Product at Facebook (2010\u20132014). He co\u2011founded Fin and is a co\u2011founder/General Partner at Slow Ventures, investing in pre\u2011seed through early growth stages. He holds an A.B. in Social Studies from Harvard University.",
+      "previous_investments": [
+        "Venmo",
+        "MakerBot",
+        "Birchbox",
+        "Airtable",
+        "Solana",
+        "Algorand",
+        "Teamshares",
+        "OpenPhone",
+        "PillPack",
+        "Ro",
+        "Riverside",
+        "MasterClass",
+        "Tonkean",
+        "Blockdaemon"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/lessin",
+      "personal_linkedin_url": "https://www.linkedin.com/in/wlessin",
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": "https://www.linkedin.com/company/slow-ventures",
+      "investment_focus": "Early\u2011stage (pre\u2011seed/seed/Series A) generalist VC focusing on consumer, fintech, SaaS, crypto/blockchain, healthcare and the creator economy."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:54:37.809915",
+      "username": "lessin"
+    }
+  },
+  {
+    "name": "Ashmeet Sidana",
+    "position": "investor",
+    "min_investment": "100000",
+    "firm": "Engineering Capital",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckh5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fcc87e3a575fd2de03a8d548c039e56e60feb6e4/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Data & AI",
+      "DevTools & Infrastructure",
+      "FinTech",
+      "Industrial & Robotics",
+      "Cybersecurity"
+    ],
+    "enrichment": {
+      "investor_name": "Ashmeet Sidana",
+      "firm_name": "Engineering Capital",
+      "personal_bio": "Founder and Chief Engineer at Engineering Capital who leads and often syndicates seed rounds in technical software and infrastructure startups. Former product leader at VMware (worked on ESX Server) and earlier founder/operator. Holds an MS in Computer Science from Stanford and an MBA from Wharton.",
+      "interests": [
+        "Infrastructure & cloud software",
+        "Enterprise security & networking",
+        "Developer platforms & tooling",
+        "Early-stage seed / technical founders"
+      ],
+      "career_background": "Started as an engineer at Hewlett-Packard and Silicon Graphics, founded Sidana Systems (acquired), then ran product management for VMware's ESX Server. Transitioned to venture investing, founded Engineering Capital to lead seed investments in software/infrastructure companies. Educated at USC (BS CS), Stanford (MS CS) and Wharton (MBA).",
+      "previous_investments": [
+        "Rubrik",
+        "SignalFx",
+        "Tubi",
+        "Kentik",
+        "Menlo Security",
+        "Nexla",
+        "Evinced",
+        "Robust Intelligence",
+        "vFunction",
+        "Yotascale",
+        "Baffle",
+        "Asimily",
+        "Prismo Systems",
+        "Xano",
+        "Diamanti"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/ashmeetsidana",
+      "personal_linkedin_url": "https://www.linkedin.com/in/sidana",
+      "firm_twitter_profile": "https://twitter.com/engineeringcap",
+      "firm_linkedin_url": "https://www.linkedin.com/company/engineering-capital",
+      "investment_focus": "Early-stage (pre-seed/seed) enterprise and infrastructure software, cloud/platforms, security, and developer-focused tooling"
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:54:44.638681",
+      "username": "ashmeetsidana"
+    }
+  },
+  {
+    "name": "Jeremy Fiance",
+    "position": "managing_partner",
+    "min_investment": "100000",
+    "firm": "The House Fund",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN295QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c95287706e6e0cc80a529a199259a57c2fd3f4e3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "Berkeley, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [],
+    "enrichment": {
+      "investor_name": "Jeremy Fiance",
+      "firm_name": "The House Fund",
+      "personal_bio": "Founder and Managing Partner of The House Fund, a Berkeley-focused pre-seed and early-stage VC. UC Berkeley graduate who launched the fund in 2016 to support Berkeley-affiliated founders. Previously invested at CrunchFund, Dorm Room Fund, and Keiretsu Forum and co-founded Dropsense.",
+      "interests": [
+        "Berkeley/university startup ecosystem",
+        "AI & machine learning",
+        "Pre-seed and seed investing / founder support",
+        "Robotics & hardware startups",
+        "EdTech and education tools"
+      ],
+      "career_background": "Started The House Fund in 2016 after graduating from UC Berkeley. Prior roles include investor positions at CrunchFund, Dorm Room Fund (Managing Partner) and Keiretsu Forum; co-founded health data startup Dropsense and has served as an advisor/board observer to multiple portfolio companies.",
+      "previous_investments": [
+        "Savvy Wealth",
+        "Flume",
+        "Ambi Robotics",
+        "Augmental",
+        "Laurel (Laurel AI)",
+        "SigIQ",
+        "Limited",
+        "Ayar Labs",
+        "Gradescope",
+        "Eko",
+        "Dyndrite",
+        "Rooster",
+        "Indoor Reality",
+        "Tatem"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/jfiance",
+      "personal_linkedin_url": "https://www.linkedin.com/in/jfiance",
+      "firm_twitter_profile": "https://twitter.com/thehousevc",
+      "firm_linkedin_url": "https://www.linkedin.com/company/the-house-fund",
+      "investment_focus": "Pre-seed and early-stage Berkeley-affiliated startups; emphasis on AI/ML, SaaS, robotics, deep tech, and university spinouts."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:55:08.119123",
+      "username": "jfiance"
+    }
+  },
+  {
+    "name": "Diana Kimball Berlin",
+    "position": "partner",
+    "min_investment": "100000",
+    "firm": "Matrix",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBejk1QkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--86430bc50260c36725db59a5e1bdbe20554fa012/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "Los Angeles, California",
+      "Seattle, Washington",
+      "Toronto, Ontario",
+      "Denver, Colorado",
+      "Austin, Texas",
+      "New York City",
+      "San Francisco Bay Area",
+      "Boston, Massachusetts",
+      "San Francisco, California",
+      "Austin",
+      "Boston / New England",
+      "British Columbia",
+      "Colorado / Utah",
+      "Los Angeles / Southern California",
+      "Seattle / Portland"
+    ],
+    "industries": [
+      "Data & AI",
+      "Enterprise Software"
+    ],
+    "enrichment": {
+      "investor_name": "Diana Kimball Berlin",
+      "firm_name": "Matrix",
+      "personal_bio": "Partner at Matrix focused on B2B SaaS and applied AI; joined the firm as an early-stage investor and works from San Francisco. \ue200cite\ue202turn7view0\ue202turn8view0\ue201 Former product leader (VP Product at Quip) with prior roles at SoundCloud and Microsoft. \ue200cite\ue202turn8view0\ue202turn3search4\ue201 Holds a BA from Harvard and an MBA from Harvard Business School. \ue200cite\ue202turn3search7\ue202turn8view0\ue201",
+      "interests": [
+        "B2B SaaS",
+        "Applied AI / generative AI",
+        "Product & workflow tools"
+      ],
+      "career_background": "Product operator turned investor: several years as a product leader (including VP Product at Quip) and earlier product/PM roles at SoundCloud and Microsoft; moved into VC as a Partner at Matrix in 2021 where she leads early-stage B2B and AI investments. \ue200cite\ue202turn8view0\ue202turn3search4\ue202turn7view0\ue201",
+      "previous_investments": [
+        "Meshcapade",
+        "Accord",
+        "Infinity AI"
+      ],
+      "hometown": "Born in Cambridge, Massachusetts; raised in Ann Arbor, Michigan. \ue200cite\ue202turn8view0\ue201",
+      "personal_twitter_profile": "https://twitter.com/dianakimball",
+      "personal_linkedin_url": "https://www.linkedin.com/in/dianakimball/",
+      "firm_twitter_profile": "https://twitter.com/matrixvc",
+      "firm_linkedin_url": "https://www.linkedin.com/company/matrix-vc",
+      "investment_focus": "Early-stage (seed\u2013Series A) B2B SaaS and applied AI. \ue200cite\ue202turn7view0\ue202turn3search4\ue201"
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:55:14.320961",
+      "username": "dianakimball"
+    }
+  },
+  {
+    "name": "Jason Calacanis",
+    "position": "investor",
+    "min_investment": "100000",
+    "firm": "LAUNCH",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JEQkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b8b3d2a9461d84ec4e04c4c07be598dceddc7702/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Data & AI",
+      "Angel, Scout, and Solo-Capitalists",
+      "DevTools & Infrastructure",
+      "Healthcare & Bio",
+      "Media & Entertainment",
+      "Consumer Internet & Commerce",
+      "Enterprise Software"
+    ],
+    "enrichment": {
+      "investor_name": "Jason Calacanis",
+      "firm_name": "LAUNCH",
+      "personal_bio": "Jason McCabe Calacanis is an American entrepreneur, angel investor and podcaster. He founded LAUNCH (the LAUNCH accelerator and festival) and Inside.com, hosts This Week in Startups and co-hosts the All-In podcast, and has invested in hundreds of startups. He is the author of the book Angel: How to Invest in Technology Startups.",
+      "interests": [
+        "Early-stage technology startups",
+        "Founder education & accelerators",
+        "Consumer marketplaces & on-demand platforms",
+        "Fintech",
+        "Podcasts & media"
+      ],
+      "career_background": "Calacanis began in digital media (founding Weblogs, Inc., sold to AOL), served briefly as an Entrepreneur-in-Action at Sequoia, then founded Inside.com and LAUNCH. He is a prolific angel investor and runs LAUNCH\u2019s accelerator and related programs (Founder University, The Syndicate), while hosting long-running startup-focused podcasts and public events.",
+      "previous_investments": [
+        "Uber",
+        "Robinhood",
+        "Thumbtack",
+        "Calm",
+        "Trello",
+        "Superhuman",
+        "DataStax",
+        "Wealthfront",
+        "Desktop Metal"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/Jason",
+      "personal_linkedin_url": "https://www.linkedin.com/in/jasoncalacanis",
+      "firm_twitter_profile": "https://twitter.com/LAUNCH",
+      "firm_linkedin_url": "https://www.linkedin.com/company/launch-calacanis",
+      "investment_focus": "Early-stage technology startups (pre-seed to Series B); consumer marketplaces and on-demand platforms; fintech; productivity/SaaS; media and podcast-related ventures."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:55:18.514689",
+      "username": "Jason"
+    }
+  },
+  {
+    "name": "Ryan Hoover",
+    "position": "investor",
+    "min_investment": "100000",
+    "firm": "Weekend Fund",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMWFCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--dbd12ecf24d6a33163466c42746627528b40f081/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area",
+      "New York, New York",
+      "Los Angeles, California",
+      "Chicago, Illinois",
+      "Los Angeles / Southern California",
+      "Midwest",
+      "New York City"
+    ],
+    "industries": [
+      "Angel, Scout, and Solo-Capitalists",
+      "Healthcare & Bio",
+      "Consumer Internet & Commerce",
+      "Enterprise Software",
+      "FinTech",
+      "Media & Entertainment"
+    ],
+    "enrichment": {
+      "investor_name": "Ryan Hoover",
+      "firm_name": "Weekend Fund",
+      "personal_bio": "Founder of Product Hunt and a General Partner at Weekend Fund. Early-stage investor focused on consumer and B2B startups; contributor to the book Hooked: How to Build Habit-Forming Products. Background in product management and writing; maintains a public blog and publishes on LinkedIn.",
+      "interests": [
+        "Maker / creator tools",
+        "Tools for distributed teams",
+        "Audio & voice products",
+        "No-code / low-code tools",
+        "Consumer internet",
+        "Early-stage startups"
+      ],
+      "career_background": "Began as a product manager in the gaming industry (PlayHaven, InstantAction), co-created Startup Edition, founded Product Hunt in 2013 (later acquired by AngelList), and launched Weekend Fund in 2017 where he invests in pre-seed and seed-stage companies. Writes publicly and has contributed to Hooked: How to Build Habit-Forming Products.",
+      "previous_investments": [
+        "Product Hunt",
+        "Polywork",
+        "Justpoint",
+        "Bezi",
+        "Infinite Objects",
+        "Outset",
+        "Modulz",
+        "HeadSpin",
+        "Chartable",
+        "Awari",
+        "Around",
+        "Hamilton AI",
+        "Mainframe",
+        "Splash",
+        "Presail"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/rrhoover",
+      "personal_linkedin_url": "https://www.linkedin.com/in/ryanrhoover",
+      "firm_twitter_profile": "https://twitter.com/weekendfund",
+      "firm_linkedin_url": null,
+      "investment_focus": "Pre-seed and seed-stage consumer and B2B startups; focus areas include creator/maker tools, distributed team tooling, audio/voice products, and no/low-code platforms."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:55:22.262385",
+      "username": "rrhoover"
+    }
+  },
+  {
+    "name": "Kevin Siskar",
+    "position": "angel",
+    "min_investment": "5000",
+    "firm": "Firehouse Fund",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBUZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b661f1920ba6d1c6f60aa2071851ff6cc6225263/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "Palo Alto, California",
+      "San Francisco, California",
+      "San Jose, California",
+      "New York, New York",
+      "Buffalo, New York",
+      "New York City",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Data & AI",
+      "Enterprise Software",
+      "Angel, Scout, and Solo-Capitalists",
+      "Climate & Sustainability",
+      "FinTech",
+      "Built World",
+      "Industrial & Robotics",
+      "Web3"
+    ],
+    "enrichment": {
+      "investor_name": "Kevin Siskar",
+      "firm_name": "Firehouse Ventures (AngelList syndicate)",
+      "personal_bio": "Kevin Siskar is CEO & co\u2011founder of Finta and runs the Firehouse Ventures AngelList syndicate. He is an active pre\u2011seed/seed investor and host of the Ambition Today podcast. He previously led Founder Institute New York and served as VP, Portfolio & Selection at 43North.",
+      "interests": [
+        "Early\u2011stage (pre\u2011seed / seed) investing",
+        "Fundraising automation & founder platforms",
+        "Fintech and financial infrastructure",
+        "Enterprise SaaS & AI"
+      ],
+      "career_background": "Kevin Siskar studied Cognitive Neuroscience at the University at Buffalo. He co\u2011founded and serves as CEO of Finta, built and runs the Firehouse Ventures syndicate, and has held leadership roles at Founder Institute (Managing Director) and 43North (VP, Portfolio & Selection). He has also worked as a venture partner/advisor at early\u2011stage firms and hosts the Ambition Today podcast.",
+      "previous_investments": [
+        "CoinZoom",
+        "CapCell Biologics",
+        "Easy Aerial",
+        "Invoira",
+        "MoneyStack",
+        "Paid Exposure",
+        "Factual VR",
+        "Craft and Savor",
+        "Pathgather",
+        "Stareable",
+        "Postadium",
+        "Access Square"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/TheSiskar",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": null,
+      "investment_focus": "Pre\u2011seed and seed stage startups; sectors include FinTech, AI, Enterprise/SaaS, HealthTech, consumer products/marketplaces and Space/Deep Tech."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:55:34.711870",
+      "username": "TheSiskar"
+    }
+  },
+  {
+    "name": "Arjun Sethi",
+    "position": "partner",
+    "min_investment": "100000",
+    "firm": "Tribe Capital",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMnN2QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c69034cec1a188860ce58588c1bc387824b8b9a7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "San Francisco Bay Area",
+      "United States"
+    ],
+    "industries": [
+      "Data & AI",
+      "Enterprise Software",
+      "Angel, Scout, and Solo-Capitalists",
+      "DevTools & Infrastructure",
+      "Industrial & Robotics",
+      "FinTech",
+      "Consumer Internet & Commerce"
+    ],
+    "enrichment": {
+      "investor_name": "Arjun Sethi",
+      "firm_name": "Tribe Capital",
+      "personal_bio": "Arjun Sethi is a co\u2011founder of Tribe Capital and a serial entrepreneur turned investor. He was previously a partner at Social Capital and co\u2011founded startups including MessageMe and LOLapps. Sethi serves on boards of several tech companies and has led Tribe\u2019s investments across enterprise software, crypto and fintech.",
+      "interests": [
+        "early\u2011stage venture investing",
+        "crypto & blockchain",
+        "AI and data\u2011driven investing",
+        "fintech",
+        "enterprise & developer platforms",
+        "founder\u2011led company building"
+      ],
+      "career_background": "Sethi co\u2011founded Tribe Capital in 2018 after investing at Social Capital. Prior to investing he founded and led consumer startups (MessageMe, LOLapps) and held product leadership roles at Yahoo. At Tribe he has overseen venture and crypto investments and served on boards such as Carta, Relativity Space and Kraken; he has also co\u2011founded incubations and fintech ventures tied to Tribe.",
+      "previous_investments": [
+        "Carta",
+        "Relativity Space",
+        "Kraken",
+        "Docker",
+        "Apollo.io",
+        "Shiprocket",
+        "Front",
+        "Opendoor",
+        "Gusto",
+        "Instabase",
+        "Alpaca",
+        "Airtable",
+        "CloudKitchens",
+        "SFOX"
+      ],
+      "hometown": "Santa Clara, California",
+      "personal_twitter_profile": "https://twitter.com/arjunsethi",
+      "personal_linkedin_url": "https://www.linkedin.com/in/asethi/",
+      "firm_twitter_profile": "https://twitter.com/tribecap",
+      "firm_linkedin_url": "https://www.linkedin.com/company/tribe-capital-partners/",
+      "investment_focus": "Seed to growth\u2011stage technology companies with emphasis on enterprise software, crypto/web3, fintech, and AI/data\u2011driven opportunities"
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:55:49.082402",
+      "username": "arjunsethi"
+    }
+  },
+  {
+    "name": "Kate McAndrew",
+    "position": "general_partner",
+    "min_investment": "100000",
+    "firm": "Baukunst",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOTExQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--947597da25a6db2d4a36273bf928b4f3eddbf076/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Consumer Internet & Commerce",
+      "Industrial & Robotics",
+      "Healthcare & Bio"
+    ],
+    "enrichment": {
+      "investor_name": "Kate McAndrew",
+      "firm_name": "Baukunst",
+      "personal_bio": "Co\u2011founder and General Partner at Baukunst, a San Francisco\u2013based pre\u2011seed venture collective. Former Partner at Bolt; founder of Women In Hardware. Leads/pre\u2011seed investments in companies combining design and technology.",
+      "interests": [
+        "Pre\u2011seed / early\u2011stage investing",
+        "Hardware & physical products",
+        "Design-driven / creative technology",
+        "Consumer brands & marketplaces",
+        "Women in hardware / founder diversity",
+        "Applied AI for product experiences"
+      ],
+      "career_background": "Kate McAndrew built Bolt\u2019s venture practice as a Partner before co\u2011founding Baukunst in 2022. She has spent a decade+ as a first\u2011round lead investor and board member, focusing on pre\u2011seed and seed companies at the intersection of the digital and physical worlds and running Baukunst\u2019s inaugural $100M fund.",
+      "previous_investments": [
+        "Bobbie",
+        "PAIR Eyewear",
+        "Emme",
+        "Eternal",
+        "Faculty",
+        "Maev",
+        "Core",
+        "Recess",
+        "Offe Market",
+        "Sylvie",
+        "Bindery Books",
+        "DirectBooker"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/katepmcandrew",
+      "personal_linkedin_url": "https://www.linkedin.com/in/kateprestonmcandrew/",
+      "firm_twitter_profile": "https://twitter.com/_baukunst",
+      "firm_linkedin_url": "https://www.linkedin.com/company/baukunstco/",
+      "investment_focus": "Leads pre\u2011seed rounds (typical checks ~$500K\u2013$2M) in \"creative technologists\" building at the frontiers of technology and design \u2014 sectors include hardware, consumer products/marketplaces, design tools, applied AI, and health/physical product innovation."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:55:59.947452",
+      "username": "katepmcandrew"
+    }
+  },
+  {
+    "name": "Chris Moreno",
+    "position": "general_partner",
+    "min_investment": "25000",
+    "firm": "Infinite Niches",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXYyQmc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e00a4f88fcf58e6fd719aec3d0fd1a89a937bcab/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "Atlanta, Georgia",
+      "San Francisco Bay Area",
+      "Raleigh-Durham / Southeast US"
+    ],
+    "industries": [
+      "Angel, Scout, and Solo-Capitalists",
+      "Climate & Sustainability",
+      "Consumer Internet & Commerce",
+      "Enterprise Software",
+      "Industrial & Robotics",
+      "FinTech",
+      "Built World"
+    ],
+    "enrichment": {
+      "investor_name": "Chris Moreno",
+      "firm_name": "Infinite Niches",
+      "personal_bio": "Atlanta-based entrepreneur, investor, and podcast host focused on real estate and PropTech. Co\u2011founder/operator of startups including Luxer One, DropLocker and Laundry Locker; now invests and advises early\u2011stage companies through Infinite Niches and related networks. Hosts The Multifamily Hangout and is active in industry groups (NMHC, NAA, ULI).",
+      "interests": [
+        "PropTech / built\u2011world technology",
+        "Multifamily real estate",
+        "Last\u2011mile logistics & hardware",
+        "Smart cities / EV infrastructure",
+        "ClimateTech & sustainability",
+        "Early\u2011stage / angel investing"
+      ],
+      "career_background": "20+ years working at the intersection of real estate, logistics and technology. Co\u2011founder of Luxer One (package locker systems) and early team roles at DropLocker and Laundry Locker; has held growth/partnerships roles and advisory positions (On Deck, Xeal, Moderne Ventures, Atlanta Tech Village) and participates in industry organizations and boards focused on multifamily and proptech.",
+      "previous_investments": [
+        "Luxer One",
+        "DropLocker",
+        "Laundry Locker",
+        "Rise Buildings",
+        "Starcity",
+        "Swimply",
+        "MainStreet",
+        "Jeeves",
+        "Wander",
+        "Motion",
+        "Loop",
+        "CoScreen",
+        "Immi",
+        "Arist"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/MorenoChris",
+      "personal_linkedin_url": "https://www.linkedin.com/in/chrismoreno",
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": null,
+      "investment_focus": "Early\u2011stage investments (angel / pre\u2011seed / seed) in real estate/PropTech, multifamily and built\u2011world solutions; logistics/last\u2011mile, hardware & smart\u2011cities, climate/energy adjacent tech."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:56:10.898884",
+      "username": "MorenoChris"
+    }
+  },
+  {
+    "name": "Sunil Rajaraman",
+    "position": "scout",
+    "min_investment": "50000",
+    "firm": "Sequoia Capital",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMjhqQkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ac8febc05ce19a53c18dc6227924186eedfcf6ce/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Enterprise Software",
+      "Climate & Sustainability",
+      "Data & AI",
+      "Angel, Scout, and Solo-Capitalists",
+      "Consumer Internet & Commerce",
+      "Media & Entertainment"
+    ],
+    "enrichment": {
+      "investor_name": "Sunil Rajaraman",
+      "firm_name": "Sequoia Capital",
+      "personal_bio": "Founder and operator of Hamlet (local/civic-AI); co\u2011founder of Scripted. Former marketing executive (GoodRx, Metromile) and active angel investor. Serves as a Scout for Sequoia Capital and is a Forbes contributor.",
+      "interests": [
+        "Marketplaces / labor marketplaces",
+        "AI and applied ML",
+        "Marketing technology",
+        "Civic / local government technology"
+      ],
+      "career_background": "Serial entrepreneur and operator: co\u2011founded Scripted; held senior marketing roles including CMO at Metromile and VP Marketing (B2B) at GoodRx; founded Hamlet in 2022. Active angel investor and joined Sequoia\u2019s scout program in 2022. Education: B.A., Claremont McKenna College; MBA, UCLA Anderson School of Management.",
+      "previous_investments": [
+        "Turing (Turing.com)",
+        "Aalto",
+        "Iron Ox",
+        "Maven",
+        "Practice",
+        "Azteco",
+        "Tonkean",
+        "Datapeople"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/subes01",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": "https://twitter.com/sequoia",
+      "firm_linkedin_url": "https://www.linkedin.com/company/sequoia-capital",
+      "investment_focus": "Pre-seed and seed-stage startups; marketplaces, AI/ML, marketing technology, future-of-work/labor platforms, civic/local government tech"
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:56:14.186051",
+      "username": "subes01"
+    }
+  },
+  {
+    "name": "Tyler Mincey",
+    "position": "general_partner",
+    "min_investment": "100000",
+    "firm": "Baukunst",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM0pCQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f3db81fd2ddb4c947cd6a56bea0c47df697085fe/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Consumer Internet & Commerce",
+      "Enterprise Software"
+    ],
+    "enrichment": {
+      "investor_name": "Tyler Mincey",
+      "firm_name": "Baukunst",
+      "personal_bio": "Co\u2011founder and General Partner at Baukunst, a San Francisco\u2013based collective investing in pre\u2011seed, design\u2011led technology companies. Fifteen years in product, design and engineering; led teams that worked on the first iPhone and multiple generations of iPods. Previously on the founding team at Pearl Automation and a partner at Bolt.",
+      "interests": [
+        "Product design & industrial hardware",
+        "Consumer electronics",
+        "Pre\u2011seed / early-stage investing",
+        "Embedded systems & firmware",
+        "Design-led product development"
+      ],
+      "career_background": "Engineering and product leader turned investor. Worked at Apple on iPod/iPhone product development, was a founding team member and VP Product at Pearl Automation, partner at Fictive Kin, and later a partner at Bolt before co\u2011founding Baukunst. Education: BSE, Mechanical & Aerospace Engineering, Princeton University; MS, Mechanical Engineering, Stanford University.",
+      "previous_investments": [
+        "AMBR",
+        "Bindery Books",
+        "Dig Energy",
+        "Eyebot",
+        "Elevate Foods",
+        "Five Flute",
+        "Omnibus",
+        "Orange Charger",
+        "Picture Studio",
+        "Software Defined Automation",
+        "Sylvie",
+        "Synthetic Traffic",
+        "Threaded Manufacturing"
+      ],
+      "hometown": "Tampa, FL",
+      "personal_twitter_profile": "https://twitter.com/tmincey",
+      "personal_linkedin_url": "https://www.linkedin.com/in/tmincey",
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": null,
+      "investment_focus": "Design\u2011led hardware and software companies; pre\u2011seed / seed stage; consumer electronics, product engineering, manufacturing and developer tools."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:56:19.416340",
+      "username": "tmincey"
+    }
+  },
+  {
+    "name": "Mehrad Yaghmai",
+    "position": "managing_partner",
+    "min_investment": "50000",
+    "firm": "Cool Climate Collective",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVVTQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ccae80da2a85f10f8223afab44c52302e2d78002/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "Global",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Climate & Sustainability",
+      "Angel, Scout, and Solo-Capitalists",
+      "Healthcare & Bio",
+      "Built World",
+      "Industrial & Robotics",
+      "Consumer Internet & Commerce"
+    ],
+    "enrichment": {
+      "investor_name": "Mehrad Yaghmai",
+      "firm_name": "Cool Climate Collective",
+      "personal_bio": "Founding partner and Managing Partner at Cool Climate Collective, an early\u2011stage climate\u2011tech investment collective. Former Program Director for Terra.do\u2019s Climate Change for VCs program and co\u2011founder of Qureos. Active angel investor focused on early-stage ClimateTech and operator support for founders.",
+      "interests": [
+        "Climate tech / decarbonization",
+        "Carbon removal & sequestration",
+        "Advanced materials & manufacturing",
+        "Energy & storage",
+        "Food & water security",
+        "Early\u2011stage (pre\u2011seed/seed) investing"
+      ],
+      "career_background": "Mehrad co\u2011founded Cool Climate Collective in 2021 and leads sourcing, diligence and syndication for early\u2011stage climate investments. He previously served as Program Director at Terra.do, co\u2011founded Qureos, and has held operator roles spanning product, growth and innovation programming with involvement in MENA accelerators and startup studios. He consults and advises climate founders and runs a personal angel portfolio concentrated on climate and deep\u2011tech startups.",
+      "previous_investments": [
+        "Alga Biosciences",
+        "Cascade Biocatalysts",
+        "DTE Materials",
+        "InventWood",
+        "Pioneer Climate",
+        "Aquaporo",
+        "wasted*",
+        "Glanris",
+        "Praan",
+        "Natrion",
+        "FocalHeat",
+        "Electric Fish",
+        "Nevoya",
+        "Shovels.ai",
+        "Leafr"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://x.com/viaMehrad",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": null,
+      "investment_focus": "Early\u2011stage ClimateTech (pre\u2011seed/seed): decarbonization, carbon removal, advanced materials & manufacturing, energy & storage, food & water security, AI/efficiency for climate"
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:56:33.975464",
+      "username": "viaMehrad"
+    }
+  },
+  {
+    "name": "Jacob Shea",
+    "position": "general_partner",
+    "min_investment": "100000",
+    "firm": "Structure Capital",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVZPQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--eb623554ede08fc7dfddb5d3a5da62088b04840b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "Los Angeles, California",
+      "Austin, Texas",
+      "New York, New York",
+      "Austin",
+      "Los Angeles / Southern California",
+      "New York City",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Climate & Sustainability",
+      "Data & AI",
+      "Healthcare & Bio",
+      "Consumer Internet & Commerce",
+      "Built World",
+      "Enterprise Software"
+    ],
+    "enrichment": {
+      "investor_name": "Jacob Shea",
+      "firm_name": "Structure Capital",
+      "personal_bio": "Partner at Structure Capital based in San Francisco. Software architect and digital-product leader with early experience at Dell and as co\u2011founder/EVP of a digital agency. Advises and invests in seed\u2011stage startups; has served as CTO at Copia and sits on company boards.",
+      "interests": [
+        "Zero-waste / circular\u2011economy startups",
+        "Marketplaces & asset\u2011utilization platforms",
+        "SaaS, AI/ML and data\u2011driven marketing"
+      ],
+      "career_background": "Started as a programmer at Dell, built and sold a digital agency, and held senior technology and product roles for clients including Qualcomm, NFL and Pixar. Joined Structure Capital as Director/Entrepreneur\u2011in\u2011Residence and is now a Partner; has also served as CTO of Copia and advises early\u2011stage companies.",
+      "previous_investments": [
+        "Copia",
+        "CareGuide",
+        "Biofire",
+        "Lettuce Grow"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/jacobshea",
+      "personal_linkedin_url": "https://www.linkedin.com/in/jacobshea",
+      "firm_twitter_profile": "https://twitter.com/structurevc",
+      "firm_linkedin_url": "https://www.linkedin.com/company/structure-capital",
+      "investment_focus": "Seed\u2011stage investments in companies that leverage under\u2011utilized assets (zero\u2011waste/circular economy), marketplaces and platform businesses; also interested in SaaS, AI/ML, and consumer/enterprise products."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:56:42.035099",
+      "username": "jacobshea"
+    }
+  },
+  {
+    "name": "Danielle Strachman",
+    "position": "general_partner",
+    "min_investment": "50000",
+    "firm": "1517 Fund",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBME05QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cf7803bb7890cfeac5a7e20361b3c5072ba6440b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Education",
+      "Consumer Internet & Commerce"
+    ],
+    "enrichment": {
+      "investor_name": "Danielle Strachman",
+      "firm_name": "1517 Fund",
+      "personal_bio": "Co\u2011founder and General Partner at 1517 Fund, an early\u2011stage VC that backs dropouts, students and \"sci\u2011fi\" deep\u2011tech founders. Previously a founding team member and program director for the Thiel Fellowship and founder/director of Innovations Academy, a K\u20138 charter school. Focuses on pre\u2011seed/seed investments and community building for young and unconventional founders.",
+      "interests": [
+        "Early\u2011stage (pre\u2011seed & seed) investing",
+        "Deep tech / hardware / biotech / quantum",
+        "Supporting dropouts, students and non\u2011traditional founders",
+        "Alternative education and founder development"
+      ],
+      "career_background": "Danielle cofounded 1517 Fund in 2015 and serves as a General Partner. Before 1517 she was on the founding team of the Thiel Fellowship (led design and operations, ~2010\u20132015) and earlier founded and directed Innovations Academy, a K\u20138 project\u2011based charter school in San Diego. She runs 1517\u2019s sourcing and community efforts focused on young, uncredentialed and deep\u2011tech founders.",
+      "previous_investments": [
+        "Luminar Technologies",
+        "Loom",
+        "nTopology",
+        "Lambda (Lambda Labs)",
+        "Deepgram",
+        "Fountain",
+        "Atom Computing",
+        "Ephemeral Tattoo",
+        "Zeno Power Systems",
+        "Symba",
+        "Cents",
+        "MemberStack"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/DStrachman",
+      "personal_linkedin_url": "https://www.linkedin.com/in/daniellestrachman",
+      "firm_twitter_profile": "https://twitter.com/1517fund",
+      "firm_linkedin_url": "https://www.linkedin.com/company/1517fund",
+      "investment_focus": "Pre\u2011seed and seed in deep tech (hardware, biotech, quantum), developer tools and software; founders without traditional degrees (dropouts/renegade students)."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:57:04.149954",
+      "username": "DStrachman"
+    }
+  },
+  {
+    "name": "Elizabeth Galbut",
+    "position": "managing_partner",
+    "min_investment": "50000",
+    "firm": "SoGal Ventures",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNmN5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--126c531963833a4b99975f59490e1856b0e2cf89/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "New York, New York",
+      "San Francisco, California",
+      "San Francisco Bay Area",
+      "Los Angeles / Southern California",
+      "Los Angeles, California",
+      "Boston, Massachusetts",
+      "Boston / New England",
+      "Baltimore, Maryland",
+      "Washington, District of Columbia",
+      "Miami, Florida",
+      "Singapore",
+      "China",
+      "New York City",
+      "Raleigh-Durham / Southeast US",
+      "Washington, D.C."
+    ],
+    "industries": [
+      "Data & AI",
+      "Healthcare & Bio",
+      "Consumer Internet & Commerce",
+      "DevTools & Infrastructure",
+      "FinTech",
+      "Media & Entertainment",
+      "Industrial & Robotics"
+    ],
+    "enrichment": {
+      "investor_name": "Elizabeth Galbut",
+      "firm_name": "SoGal Ventures",
+      "personal_bio": "Co\u2011founder and Managing Partner at SoGal Ventures. Venture capitalist, designer, and educator who invests in early\u2011stage consumer and health startups, with an emphasis on diverse and women\u2011led founding teams across the U.S. and Asia. Focuses on design\u2011driven products and the intersection of machine learning/AI and healthcare.",
+      "interests": [
+        "Digital health / healthtech",
+        "Consumer brands / D2C / CPG",
+        "AI & machine learning in biotech/health",
+        "Design\u2011led product and UX",
+        "Diverse and women founders",
+        "Early\u2011stage (pre\u2011seed/seed) investing",
+        "Cross\u2011border US\u2013Asia opportunities"
+      ],
+      "career_background": "Previously a strategy & operations consultant at Deloitte; co\u2011founder of A\u2011Level Capital (a student\u2011led venture fund). Holds dual graduate degrees (MBA/MA Design Leadership) from Johns Hopkins University and MICA and a BA from Georgetown. Active speaker and instructor on healthcare innovation and design.",
+      "previous_investments": [
+        "Everly Health (Everlywell)",
+        "Function of Beauty",
+        "Proscia",
+        "Insilico Medicine",
+        "Siren Care",
+        "HelloAva",
+        "Unbound",
+        "eMocha",
+        "Hidrate (HidrateSpark)",
+        "Tueo Health",
+        "Vetivax",
+        "Parsley Health",
+        "Elemy",
+        "Lovevery",
+        "Fiveable"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/design4innov8",
+      "personal_linkedin_url": "https://www.linkedin.com/in/egalbut/",
+      "firm_twitter_profile": "https://twitter.com/sogalventures",
+      "firm_linkedin_url": "https://www.linkedin.com/company/sogal-ventures/",
+      "investment_focus": "Seed and early\u2011stage investments in consumer, health & wellness, and frontier technologies (AI/ML); aims to be first institutional investor for diverse and women\u2011led founding teams across the U.S. and Asia."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:57:07.206321",
+      "username": "design4innov8"
+    }
+  },
+  {
+    "name": "Cyan Banister",
+    "position": "general_partner",
+    "min_investment": "100000",
+    "firm": "Long Journey Ventures",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamtGIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a7d95185e81a2d6baeccc0892ae039a72db7851b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Data & AI",
+      "Angel, Scout, and Solo-Capitalists",
+      "Consumer Internet & Commerce",
+      "Enterprise Software",
+      "FinTech"
+    ],
+    "enrichment": {
+      "investor_name": "Cyan Banister",
+      "firm_name": "Long Journey Ventures",
+      "personal_bio": "Cyan Banister is a co\u2011founder and General Partner at Long Journey Ventures and a longtime angel investor. She was previously a partner at Founders Fund and co\u2011founded Zivity. Banister is known for early checks into companies such as Uber, SpaceX and DeepMind and writes the newsletter \"The Ugly Duckling.\"",
+      "interests": [
+        "Early\u2011stage (seed/pre\u2011seed) investing",
+        "AI / deep learning and deep tech",
+        "Marketplaces & gig\u2011economy platforms",
+        "Fintech & lending",
+        "Workforce / job\u2011creating businesses",
+        "Augmented reality / spatial computing"
+      ],
+      "career_background": "A self\u2011taught engineer and operator, Banister held technical and leadership roles at IronPort before becoming an active angel investor. She co\u2011founded Zivity, later joined Founders Fund as its first female investing partner, and in 2020 became a co\u2011founder and partner at Long Journey Ventures. Over the last decade she has backed many early\u2011stage companies across consumer, fintech, AI and hardware categories.",
+      "previous_investments": [
+        "Uber",
+        "SpaceX",
+        "DeepMind",
+        "Postmates",
+        "Affirm",
+        "Niantic",
+        "Thumbtack",
+        "Flexport",
+        "Upstart",
+        "Opendoor",
+        "Carta",
+        "HQ Trivia",
+        "Zivity (co\u2011founder)",
+        "AtoB",
+        "ClassPass"
+      ],
+      "hometown": "Tucson, Arizona",
+      "personal_twitter_profile": "https://twitter.com/cyantist",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": "https://twitter.com/LongJourneyVC",
+      "firm_linkedin_url": null,
+      "investment_focus": "Early\u2011stage (pre\u2011seed/seed) investments in marketplaces, AI/ML & deep tech, fintech/lending, creator economy and workforce/job\u2011creation businesses (also interested in AR/spatial and hardware/space)."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:57:23.398379",
+      "username": "cyantist"
+    }
+  },
+  {
+    "name": "Monique Woodard",
+    "position": "managing_partner",
+    "min_investment": "100000",
+    "firm": "Cake Ventures",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK1kwQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8c2aa2723609cd0285f5c0072977cb622e58bd87/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Consumer Internet & Commerce"
+    ],
+    "enrichment": {
+      "investor_name": "Monique Woodard",
+      "firm_name": "Cake Ventures",
+      "personal_bio": "Founder and Managing Partner of Cake Ventures, a seed/pre-seed VC focused on demographic change. Former Venture Partner at 500 Startups and venture scout at Lightspeed; Kauffman Fellow (KF26) with a BA in Political Science from the University of Miami. Based in San Francisco.",
+      "interests": [
+        "Aging & longevity",
+        "Women-led consumer products and women's health",
+        "Majority-minority demographic opportunities",
+        "Consumer and enterprise technology",
+        "Pre-seed / seed stage investing"
+      ],
+      "career_background": "Monique Woodard founded Cake Ventures to back companies shaped by major demographic shifts (aging, women\u2019s spending power, majority-minority). Prior to Cake she was a Venture Partner at 500 Startups, a Venture Scout at Lightspeed, advised SoftBank\u2019s Emerge program, co\u2011founded/led Black Founders, and has 15+ years as an operator, founder and ecosystem builder. She is a Kauffman Fellow and holds a BA from the University of Miami.",
+      "previous_investments": [
+        "Mented Cosmetics",
+        "Blavity",
+        "Silvernest",
+        "Rares",
+        "Most Days",
+        "Bright",
+        "Guaranteed",
+        "Pamper",
+        "Joshin",
+        "Eli Health",
+        "Culina Health",
+        "Sol Health",
+        "Serif",
+        "Gerald"
+      ],
+      "hometown": "rural Florida",
+      "personal_twitter_profile": "https://twitter.com/MoniqueWoodard",
+      "personal_linkedin_url": "https://www.linkedin.com/in/moniquewoodard/",
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": null,
+      "investment_focus": "Pre-seed and seed investments in consumer and B2B startups addressing demographic change (aging & longevity, women's spending/health, majority-minority markets)"
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:57:35.603408",
+      "username": "MoniqueWoodard"
+    }
+  },
+  {
+    "name": "Nick Davidov",
+    "position": "unknown",
+    "min_investment": "20000",
+    "firm": "Davidovs VC",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkhwQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b01c5b006dbec0307059fe49185685627a026306/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Data & AI",
+      "Angel, Scout, and Solo-Capitalists",
+      "Consumer Internet & Commerce",
+      "DevTools & Infrastructure",
+      "Healthcare & Bio",
+      "Education",
+      "Enterprise Software",
+      "FinTech",
+      "Media & Entertainment",
+      "Industrial & Robotics"
+    ],
+    "enrichment": {
+      "investor_name": "Nick Davidov",
+      "firm_name": "Davidovs Venture Collective",
+      "personal_bio": "Co\u2011founder and partner at Davidovs Venture Collective (DVC). Runs a rolling early\u2011stage fund that writes $50\u2013200k checks into US pre\u2011seed and seed startups and leverages a community of founders, engineers and angels. Repeat founder with operating and VC experience (e.g., Cherry Labs) and advisor roles at companies including Dating Group and inDriver.",
+      "interests": [
+        "AI / machine learning",
+        "Robotics / computer vision",
+        "Future of work & enterprise software",
+        "Fintech",
+        "Edtech & creator economy",
+        "Community-driven / rolling fund investing"
+      ],
+      "career_background": "Co\u2011founded Davidovs Venture Collective (DVC) in 2021 to run a community\u2011backed rolling fund. Previously co\u2011founded Cherry Labs and held investment and operating roles at firms including iTech/Gagarin; serves as advisor or board member for multiple startups. Holds an MSc in International Business in Emerging Markets (University of Edinburgh).",
+      "previous_investments": [
+        "Perplexity",
+        "Parafin",
+        "TradingView",
+        "Bitfury",
+        "Ecwid",
+        "MSQRD",
+        "Prisma",
+        "AImatter",
+        "Kick",
+        "Proofs",
+        "Voices",
+        "Agentnoon",
+        "Fogbender",
+        "WLNC",
+        "Adcamp"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://x.com/Nick_Davidov",
+      "personal_linkedin_url": "https://www.linkedin.com/in/ndavidov",
+      "firm_twitter_profile": "https://x.com/dvc_collective",
+      "firm_linkedin_url": "https://www.linkedin.com/company/davidovs-vc",
+      "investment_focus": "Early\u2011stage (pre\u2011seed / seed) US tech startups \u2014 AI/ML, robotics/CV, enterprise software (future of work), fintech, edtech, creator economy; community-backed rolling fund model."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:57:53.691854",
+      "username": "Nick_Davidov"
+    }
+  },
+  {
+    "name": "Samir Kaji",
+    "position": "managing_partner",
+    "min_investment": "0",
+    "firm": "First Republic Bank",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNmt3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35bfc32496cc76265cb9974d4e42445877b172b2/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "Menlo Park, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Media & Entertainment",
+      "Enterprise Software",
+      "FinTech",
+      "Industrial & Robotics",
+      "Consumer Internet & Commerce",
+      "Web3"
+    ],
+    "enrichment": {
+      "investor_name": "Samir Kaji",
+      "firm_name": "First Republic Bank",
+      "personal_bio": "Co\u2011founder and CEO of Allocate; former Senior Managing Director who led venture/private\u2011fund coverage at First Republic Bank and earlier roles at Silicon Valley Bank. Kauffman Fellow, host of the Venture Unlocked podcast, and active angel investor. Holds a B.S. in Finance (San Jos\u00e9 State University) and an MBA (Santa Clara University).",
+      "interests": [
+        "Venture capital",
+        "Emerging fund managers & fund formation",
+        "Venture banking / venture debt",
+        "Early\u2011stage startups",
+        "Private fund investing"
+      ],
+      "career_background": "Spent ~22 years in venture banking at Silicon Valley Bank and First Republic, advising hundreds of VC/PE firms and completing billions in structured debt transactions; later co\u2011founded Allocate to provide infrastructure and access for private fund investing. Active angel investor and writer/podcaster on venture topics; completed Kauffman Fellows program.",
+      "previous_investments": [
+        "Carta",
+        "Side",
+        "PolicyGenius",
+        "FanDuel",
+        "Reddit",
+        "Alto Pharmacy",
+        "Carbon Health",
+        "Sydecar",
+        "Partender",
+        "WedPics"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/samirkaji",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": "https://www.linkedin.com/company/firstrepublic/",
+      "investment_focus": "Venture capital (early\u2011stage & emerging managers), private funds and GP services; venture banking and venture debt"
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:58:08.488362",
+      "username": "samirkaji"
+    }
+  },
+  {
+    "name": "April Underwood",
+    "position": "managing_director",
+    "min_investment": "100000",
+    "firm": "Adverb Ventures",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNExuQkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e525b882a2bcb71abc9af95ab3e56600fb3560ae/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Angel, Scout, and Solo-Capitalists",
+      "Climate & Sustainability",
+      "Healthcare & Bio",
+      "Consumer Internet & Commerce",
+      "DevTools & Infrastructure",
+      "Enterprise Software"
+    ],
+    "enrichment": {
+      "investor_name": "April Underwood",
+      "firm_name": "Adverb Ventures",
+      "personal_bio": "Co-founder and Managing Director at Adverb Ventures. Former Chief Product Officer at Slack and Director of Product at Twitter; co\u2011founder of the #ANGELS angel collective and founder of Nearby. Serves on the boards of Zillow Group and Eventbrite; holds an MBA from UC Berkeley and a BBA from University of Texas at Austin.",
+      "interests": [
+        "Future of Work",
+        "Developer tools",
+        "Consumer health",
+        "Marketplaces/local commerce",
+        "Platform & product-led startups"
+      ],
+      "career_background": "April Underwood is a product and platform leader turned investor. She led product and platform at Slack (first CPO) after five years as Director of Product at Twitter, held earlier roles at Google, Climate Corporation, Travelocity and Intel, co\u2011founded the #ANGELS angel collective, founded Nearby, and in 2023 co\u2011founded Adverb Ventures where she invests in early-stage startups. She also serves on the boards of Zillow Group and Eventbrite.",
+      "previous_investments": [
+        "Vanta",
+        "Color",
+        "Cue Health",
+        "Equals",
+        "Carta",
+        "Fireflies.ai",
+        "Particle (Particle.News)",
+        "Panobi",
+        "Indent",
+        "Digits",
+        "Kudos",
+        "Gowalla",
+        "Passport",
+        "Shotsy",
+        "Outset"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/aunder",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": "https://twitter.com/Adverbvc",
+      "firm_linkedin_url": null,
+      "investment_focus": "Early-stage (pre-seed through Series A); invests across product-led tech startups including Future of Work, developer tools, consumer health, marketplaces and platform businesses."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:58:19.023531",
+      "username": "aunder"
+    }
+  },
+  {
+    "name": "Brian Nichols",
+    "position": "investor",
+    "min_investment": "50000",
+    "firm": "Hustle Fund",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1dCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--12aef6918bf3e68dcb12825ce5b5bbc8d6fbb7a6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Angel, Scout, and Solo-Capitalists",
+      "Consumer Internet & Commerce",
+      "FinTech",
+      "Enterprise Software"
+    ],
+    "enrichment": {
+      "investor_name": "Brian Nichols",
+      "firm_name": "Hustle Fund",
+      "personal_bio": "Venture Partner and GM / co\u2011founder of Angel Squad at Hustle Fund. Former operator (early roles at Lyft, Zoox, BlackBird) who now builds angel syndicates and runs investor education programs. Focuses on pre\u2011seed and seed investing, particularly marketplaces and consumer tech.",
+      "interests": [
+        "Pre\u2011seed & seed investing",
+        "Marketplaces",
+        "Consumer tech",
+        "Angel education & syndicate building",
+        "Startup advising & operations"
+      ],
+      "career_background": "Brian Nichols is co\u2011founder and GM of Hustle Fund's Angel Squad (started 2020). He previously co\u2011founded RewardTag and held early/operator roles at Lyft (market operations), Zoox, and BlackBird. He founded and scaled the Lyft syndicate (UpLyft) and ran the On Deck Angels program before joining Hustle Fund to build Angel Squad and lead syndicate/SPV investments alongside the fund.",
+      "previous_investments": [
+        "Canopy",
+        "EquityList",
+        "Contra",
+        "Rupa Health",
+        "Karat",
+        "Forage",
+        "Airhouse",
+        "Podia"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/b_nicks11",
+      "personal_linkedin_url": "https://www.linkedin.com/in/briannichols11/",
+      "firm_twitter_profile": "https://twitter.com/hustlefundvc",
+      "firm_linkedin_url": "https://www.linkedin.com/company/hustlefund",
+      "investment_focus": "Pre\u2011seed and seed stage startups; marketplaces and consumer tech; building/teaching angel syndicates and SPV investments."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:58:42.490052",
+      "username": "b_nicks11"
+    }
+  },
+  {
+    "name": "Matt Mireles",
+    "position": "angel",
+    "min_investment": "100000",
+    "firm": "Guerrilla Capital",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMnJZQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a7c6c6897f5e5bbc4a5652e5c5f5b7173ea63529/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area",
+      "New York, New York",
+      "Los Angeles / Southern California",
+      "New York City"
+    ],
+    "industries": [
+      "Data & AI",
+      "Angel, Scout, and Solo-Capitalists",
+      "Healthcare & Bio",
+      "Consumer Internet & Commerce",
+      "Industrial & Robotics",
+      "Enterprise Software",
+      "Web3"
+    ],
+    "enrichment": {
+      "investor_name": "Matt Mireles",
+      "firm_name": "Guerrilla Capital",
+      "personal_bio": "Technology entrepreneur and angel investor. Founder of SpeakerText (acquired), co\u2011founder of Dishcraft Robotics, and founder of OASIS / TalkTastic. Runs a personal investment vehicle, Guerrilla Capital, and writes the newsletter \"Accelerate or Die.\"",
+      "interests": [
+        "Artificial intelligence & generative AI",
+        "Robotics & automation",
+        "Climate / carbon removal & bio-based materials",
+        "Healthtech & medical AI",
+        "Consumer marketplaces & social commerce",
+        "Blockchain / crypto"
+      ],
+      "career_background": "Former NYC paramedic and journalist (The New York Times/Newsweek). Founded SpeakerText (acquired), co\u2011founded Dishcraft Robotics, and later founded OASIS / TalkTastic. Has worked in early\u2011stage BD roles and acts as an angel investor/advisor through Guerrilla Capital, backing companies across AI, robotics, biotech and climate sectors.",
+      "previous_investments": [
+        "Monumental Labs",
+        "Kinside",
+        "Nuvocargo",
+        "Shipamax",
+        "Unspun",
+        "Ava Labs",
+        "Crusoe Energy",
+        "C16 Biosciences",
+        "Living Carbon",
+        "Terraformation",
+        "Carbon Collective",
+        "Heimdal",
+        "Cadera Brands",
+        "Bitrise",
+        "Patchd Medical"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/mattmireles",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": null,
+      "investment_focus": "Pre\u2011seed and seed-stage angel investments in AI, robotics, climate/cleantech, biotech/healthtech, consumer marketplaces/social commerce, and Web3/crypto."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:58:57.879661",
+      "username": "mattmireles"
+    }
+  },
+  {
+    "name": "Reid Hoffman",
+    "position": "partner",
+    "min_investment": "100000",
+    "firm": "Greylock",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbUlHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b40a8db1fa7ce9e5223b19d63808b5b7c70770a5/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "United States",
+      "Menlo Park, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Data & AI",
+      "Angel, Scout, and Solo-Capitalists",
+      "DevTools & Infrastructure",
+      "Consumer Internet & Commerce",
+      "Media & Entertainment",
+      "Healthcare & Bio",
+      "FinTech",
+      "Enterprise Software",
+      "Mobility & Travel"
+    ],
+    "enrichment": {
+      "investor_name": "Reid Hoffman",
+      "firm_name": "Greylock",
+      "personal_bio": "Reid Hoffman is an entrepreneur, investor, author, and podcaster. He co-founded LinkedIn, served as an early executive at PayPal, and joined Greylock as a partner in 2009. He co-founded AI companies including Inflection AI and Manas AI and has served on multiple public and private boards.",
+      "interests": [
+        "Network effects & marketplaces",
+        "Artificial intelligence",
+        "Autonomous transportation"
+      ],
+      "career_background": "Hoffman was an early PayPal executive and co\u2011founded LinkedIn in 2003. After years as a prolific angel investor, he joined Greylock in 2009 focusing on early\u2011stage companies with network effects. He has co\u2011founded AI startups (Inflection AI, Manas AI), authored several business/AI books, hosts the Masters of Scale podcast, and serves on boards including Microsoft and Aurora.",
+      "previous_investments": [
+        "LinkedIn",
+        "PayPal",
+        "Airbnb",
+        "Facebook",
+        "Aurora Innovation",
+        "Nauto",
+        "Neeva",
+        "Coda",
+        "Coupons.com",
+        "Shopkick",
+        "TrialPay",
+        "Viki",
+        "Edmodo",
+        "OpenAI"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/reidhoffman",
+      "personal_linkedin_url": "https://www.linkedin.com/in/reidhoffman",
+      "firm_twitter_profile": "https://twitter.com/GreylockVC",
+      "firm_linkedin_url": "https://www.linkedin.com/company/greylock-partners/",
+      "investment_focus": "Early\u2011stage consumer and enterprise software; network\u2011effect businesses; AI and transportation/automation"
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:59:03.934415",
+      "username": "reidhoffman"
+    }
+  },
+  {
+    "name": "Robin Chan",
+    "position": "general_partner",
+    "min_investment": "50000",
+    "firm": "Goat Capital",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMDU5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7a91b75dbf913fe8beff4f0adca78d57228ffb8e/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "United States",
+      "San Francisco Bay Area",
+      "China"
+    ],
+    "industries": [
+      "Angel, Scout, and Solo-Capitalists",
+      "Climate & Sustainability",
+      "Consumer Internet & Commerce",
+      "Media & Entertainment",
+      "FinTech",
+      "Healthcare & Bio"
+    ],
+    "enrichment": {
+      "investor_name": "Robin Chan",
+      "firm_name": "Goat Capital",
+      "personal_bio": "Co\u2011founder and General Partner at Goat Capital, an early\u2011stage fund and incubator he started with Justin Kan. Serial founder and angel investor who has co\u2011founded companies including Fractal, Rye and Stash and advised startups such as Flipboard and Expa. Holds a B.A. in Economics from Columbia University.",
+      "interests": [
+        "Gaming & digital entertainment",
+        "Digital health",
+        "E\u2011commerce & marketplaces",
+        "Climate tech",
+        "Fintech"
+      ],
+      "career_background": "Robin Chan is a serial entrepreneur\u2011investor based in the U.S. He co\u2011founded Goat Capital (2020) with Justin Kan and has founded or co\u2011founded startups including XPD Media, Operator, Fractal, Rye and Stash. Chan has served as an advisor to companies such as Flipboard, Expa and Sleeper and has a background in business development and media at firms including Verizon; he holds a B.A. in Economics from Columbia University.",
+      "previous_investments": [
+        "Ready Player Me",
+        "Ping",
+        "MadMen AI",
+        "Bunkyr",
+        "Acho",
+        "Syn City",
+        "Spore",
+        "Bueno Finance",
+        "Rye (co\u2011founder)",
+        "Fractal (co\u2011founder)",
+        "Stash (co\u2011founder)",
+        "XPD Media",
+        "Grailed",
+        "Xendit",
+        "Ping (listed twice on some sources)"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/robinchan",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": "https://twitter.com/goat_capital",
+      "firm_linkedin_url": "https://www.linkedin.com/company/goatcapital",
+      "investment_focus": "Early\u2011stage (seed/Series A) investments in gaming/digital entertainment, digital health, e\u2011commerce/marketplaces, climate tech and fintech."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:59:13.009359",
+      "username": "robinchan"
+    }
+  },
+  {
+    "name": "Ash Egan",
+    "position": "investor",
+    "min_investment": "100000",
+    "firm": "Archetype",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbDhIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--656d1adfd0dac0498f3184b7eff7730257dac21f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "Boston / New England",
+      "New York, New York",
+      "San Francisco Bay Area",
+      "New York City"
+    ],
+    "industries": [
+      "FinTech",
+      "Web3"
+    ],
+    "enrichment": {
+      "investor_name": "Ash Egan",
+      "firm_name": "Archetype",
+      "personal_bio": "Founder and General Partner at Archetype, an early\u2011stage venture firm focused on crypto and Web3. Active in seed\u2011stage crypto investing since 2015 with early involvement in projects including Chainalysis, Mina, NEAR and Balancer. Previously led blockchain investments at Accomplice and co\u2011launched ConsenSys\u2019 venture arm.",
+      "interests": [
+        "Early\u2011stage crypto & blockchain protocols",
+        "Web3 infrastructure and tooling",
+        "Decentralized finance (DeFi)"
+      ],
+      "career_background": "Ash began investing in blockchain and crypto in 2015 at Converge VC, later co\u2011launching ConsenSys\u2019 venture arm and serving as a partner leading blockchain investments at Accomplice before founding Archetype in 2021. He focuses on sourcing and leading seed and early rounds for protocol and crypto infrastructure teams and has written and spoken on crypto investing topics.",
+      "previous_investments": [
+        "Chainalysis",
+        "Mina (Mina Protocol)",
+        "NEAR (NEAR Protocol)",
+        "Balancer",
+        "Dapper Labs / Flow",
+        "Bison Trails",
+        "BlockFi",
+        "API3",
+        "CoinList",
+        "Obol Labs",
+        "Rated",
+        "Stack",
+        "Flood",
+        "Parcl",
+        "Monaverse"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/AshAEgan",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": "https://twitter.com/archetypevc",
+      "firm_linkedin_url": "https://www.linkedin.com/company/archetypevc/",
+      "investment_focus": "Seed and early\u2011stage investments in crypto, blockchain protocols, Web3 infrastructure, and DeFi"
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:59:29.759784",
+      "username": "AshAEgan"
+    }
+  },
+  {
+    "name": "Darian Shirazi",
+    "position": "general_partner",
+    "min_investment": "100000",
+    "firm": "Gradient Ventures",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeTIyQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f328ad01cbe61bf413fe8a36e1a3b70f0da34857/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco Bay Area",
+      "Berlin, Germany",
+      "Palo Alto, California",
+      "San Francisco, California"
+    ],
+    "industries": [
+      "Data & AI",
+      "Angel, Scout, and Solo-Capitalists",
+      "Consumer Internet & Commerce",
+      "Enterprise Software",
+      "Media & Entertainment",
+      "Industrial & Robotics",
+      "Mobility & Travel"
+    ],
+    "enrichment": {
+      "investor_name": "Darian Shirazi",
+      "firm_name": "Gradient Ventures",
+      "personal_bio": "General Partner at Gradient Ventures, Google\u2019s AI-focused seed fund. Former founder and CEO of Radius, a B2B customer data platform. Early investor in companies including Lyft, Udemy and Palantir; focuses on AI- and data-driven startups.",
+      "interests": [
+        "AI / machine learning",
+        "B2B SaaS & data platforms",
+        "Fintech",
+        "Early-stage investing"
+      ],
+      "career_background": "Software engineer early at Facebook; co\u2011founded and served as CEO of Radius (grew to 100+ employees and raised >$100M). Joined Gradient Ventures as a general/ managing partner, leading seed and early-stage investments in AI- and data-rich companies. Briefly studied Philosophy & Computer Science at UC Berkeley before leaving to work on startups.",
+      "previous_investments": [
+        "Lyft",
+        "Udemy",
+        "Palantir",
+        "Carbon Health",
+        "Chili Piper",
+        "Mural",
+        "Streamlit",
+        "Writer",
+        "FlutterFlow",
+        "Secureframe",
+        "Gigs",
+        "Oura",
+        "MainStreet",
+        "Contractbook",
+        "Range"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/darian314",
+      "personal_linkedin_url": "https://www.linkedin.com/in/darian314",
+      "firm_twitter_profile": "https://twitter.com/gradientvc",
+      "firm_linkedin_url": "https://www.linkedin.com/company/gradient-ventures",
+      "investment_focus": "Seed and early-stage (pre-seed, seed, Series A) investments in AI/ML and data-rich startups \u2014 primarily B2B SaaS, developer tools and fintech."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T12:59:44.510928",
+      "username": "darian314"
+    }
+  },
+  {
+    "name": "Aaron Batalion",
+    "position": "angel",
+    "min_investment": "20000",
+    "firm": "Batalion Capital",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaU1JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--65e7e0dd1062b246d2fcbe92940d5e38e309a11b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Enterprise Software",
+      "Consumer Internet & Commerce",
+      "Media & Entertainment",
+      "Industrial & Robotics",
+      "Web3"
+    ],
+    "enrichment": {
+      "investor_name": "Aaron Batalion",
+      "firm_name": "Batalion Capital",
+      "personal_bio": "Co\u2011founder and first CTO of LivingSocial and a former partner at Lightspeed Venture Partners. Active angel investor since 2013 through Batalion Capital, backing early\u2011stage consumer and technology startups. Writes and publishes at aaronbatalion.com.",
+      "interests": [
+        "Consumer internet & marketplaces",
+        "E\u2011commerce & social commerce",
+        "Developer tools & SaaS",
+        "Web3 / crypto",
+        "Robotics & autonomous systems",
+        "Early\u2011stage / seed investing"
+      ],
+      "career_background": "Aaron co\u2011founded HungryMachine (later LivingSocial) and served as its CTO through its rapid growth. He joined Lightspeed as a partner in 2015, led consumer\u2011tech investments, and stepped away from institutional venture around 2018 to focus on building and angel investing via Batalion Capital.",
+      "previous_investments": [
+        "XMTP",
+        "Teachable",
+        "Walker & Company Brands",
+        "Shyp",
+        "HONK",
+        "Back to the Roots",
+        "MovieBot",
+        "Reliable Robotics",
+        "Crowdfunder",
+        "Teleportal",
+        "Pogoseat",
+        "LensGen",
+        "EVELO",
+        "Demonstranda"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/abatalion",
+      "personal_linkedin_url": "https://www.linkedin.com/in/aaronbatalion",
+      "firm_twitter_profile": null,
+      "firm_linkedin_url": null,
+      "investment_focus": "Seed and early\u2011stage investments in consumer internet, marketplaces, e\u2011commerce/social commerce, developer tools/SaaS, web3/crypto, and hardware/autonomous systems."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T13:00:06.846203",
+      "username": "abatalion"
+    }
+  },
+  {
+    "name": "Phin Barnes",
+    "position": "investor",
+    "min_investment": "100000",
+    "firm": "The General Partnership",
+    "image_url": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOXQrQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2005b1c1da9798992de27c2433287205b3f6f404/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
+    "locations": [
+      "San Francisco, California",
+      "San Francisco Bay Area"
+    ],
+    "industries": [
+      "Angel, Scout, and Solo-Capitalists",
+      "DevTools & Infrastructure",
+      "Consumer Internet & Commerce",
+      "FinTech",
+      "Media & Entertainment",
+      "Enterprise Software",
+      "Web3"
+    ],
+    "enrichment": {
+      "investor_name": "Phin Barnes",
+      "firm_name": "The General Partnership",
+      "personal_bio": "Co-founder of The General Partnership and former Partner at First Round Capital. Background spans product, marketing and creative leadership (including Creative Director at AND1). Focuses on founder interviewing, coaching and hands-on \"sweat equity\" partnerships with early-stage companies.",
+      "interests": [
+        "FinTech",
+        "Developer tools & infrastructure",
+        "E\u2011commerce",
+        "Web3 / Crypto",
+        "SaaS",
+        "Founder coaching & talent"
+      ],
+      "career_background": "Co\u2011founded The General Partnership (joined/formed 2021). Spent over a decade at First Round Capital (Principal/Partner, 2008\u20132021). Earlier career includes Creative Director at AND1 and founding responDESIGN; holds an MBA from The Wharton School and a BA from Haverford College.",
+      "previous_investments": [
+        "Staging Labs",
+        "SendOwl",
+        "Anomalo",
+        "ModernTax",
+        "Topknot",
+        "Gauntlet",
+        "Instrumental",
+        "Laurel",
+        "Verto Education",
+        "Karuna Health",
+        "Thatch",
+        "Stepchange",
+        "Momento",
+        "PatientPing",
+        "Discourse"
+      ],
+      "hometown": null,
+      "personal_twitter_profile": "https://twitter.com/phineasb",
+      "personal_linkedin_url": null,
+      "firm_twitter_profile": "https://twitter.com/TheGP",
+      "firm_linkedin_url": null,
+      "investment_focus": "Formation (pre\u2011seed/seed) and breakout stage companies; sectors include FinTech, developer tools/infrastructure, e\u2011commerce, Web3/crypto, SaaS and data/platform companies."
+    },
+    "dm_check_result": {
+      "can_dm": true,
+      "checked_at": "2025-08-23T13:00:12.342223",
+      "username": "phineasb"
+    }
+  }
+]

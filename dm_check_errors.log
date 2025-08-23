@@ -1,0 +1,218 @@
+2025-08-23 12:50:15,789 - INFO - 🧪 Running in TEST MODE - checking only 5 investors
+2025-08-23 12:50:15,789 - INFO - 📊 Total investors to check: 5
+2025-08-23 12:50:15,789 - INFO - 📊 Already completed: 0
+2025-08-23 12:50:15,789 - INFO - [1/5] Checking Brianne Kimmel (@briannekimmel)
+2025-08-23 12:50:16,124 - INFO - ✅ briannekimmel: can_dm = True
+2025-08-23 12:50:16,124 - INFO - ✅ Added Brianne Kimmel to results (DMs open)
+2025-08-23 12:50:19,626 - INFO - [2/5] Checking Satya Patel (@satyap)
+2025-08-23 12:50:19,817 - INFO - ✅ satyap: can_dm = False
+2025-08-23 12:51:26,333 - INFO - 🚀 Running FULL MODE - checking all 439 investors
+2025-08-23 12:51:26,334 - INFO - 📊 Total investors to check: 439
+2025-08-23 12:51:26,334 - INFO - 📊 Already completed: 0
+2025-08-23 12:51:26,334 - INFO - [1/439] Checking Brianne Kimmel (@briannekimmel)
+2025-08-23 12:51:26,741 - INFO - ✅ briannekimmel: can_dm = True
+2025-08-23 12:51:26,741 - INFO - ✅ Added Brianne Kimmel to results (DMs open)
+2025-08-23 12:51:34,015 - INFO - [2/439] Checking Satya Patel (@satyap)
+2025-08-23 12:51:34,391 - INFO - ✅ satyap: can_dm = False
+2025-08-23 12:51:34,391 - INFO - Taking longer break: 43.8 seconds
+2025-08-23 12:52:18,166 - INFO - [3/439] Checking Marvin Liao (@marvinliao)
+2025-08-23 12:52:18,568 - INFO - ✅ marvinliao: can_dm = False
+2025-08-23 12:52:24,837 - INFO - [4/439] Checking Chon Tang (@chontang)
+2025-08-23 12:52:25,017 - INFO - ✅ chontang: can_dm = True
+2025-08-23 12:52:25,017 - INFO - ✅ Added Chon Tang to results (DMs open)
+2025-08-23 12:52:31,806 - INFO - [5/439] Checking Rahul Vohra (@rahulvohra)
+2025-08-23 12:52:32,174 - INFO - ✅ rahulvohra: can_dm = True
+2025-08-23 12:52:32,174 - INFO - ✅ Added Rahul Vohra to results (DMs open)
+2025-08-23 12:52:35,846 - INFO - [6/439] Checking Gary Benitt (@garybenitt)
+2025-08-23 12:52:35,995 - INFO - ✅ garybenitt: can_dm = False
+2025-08-23 12:52:41,550 - INFO - [7/439] Checking Andrew Dumont (@AndrewDumont)
+2025-08-23 12:52:41,735 - INFO - ✅ AndrewDumont: can_dm = True
+2025-08-23 12:52:41,735 - INFO - ✅ Added Andrew Dumont to results (DMs open)
+2025-08-23 12:52:45,604 - INFO - [8/439] Checking Hunter Walk (@hunterwalk)
+2025-08-23 12:52:45,864 - INFO - ✅ hunterwalk: can_dm = True
+2025-08-23 12:52:45,864 - INFO - ✅ Added Hunter Walk to results (DMs open)
+2025-08-23 12:52:48,707 - INFO - [9/439] Checking Dan Scheinman (@dscheinm)
+2025-08-23 12:52:49,022 - INFO - ✅ dscheinm: can_dm = False
+2025-08-23 12:52:49,023 - INFO - Taking longer break: 20.3 seconds
+2025-08-23 12:53:09,330 - INFO - [10/439] Checking Luis Gutierrez Roy (@LGROY)
+2025-08-23 12:53:09,491 - INFO - ✅ LGROY: can_dm = False
+2025-08-23 12:53:15,290 - INFO - [11/439] Checking Sam Lessin (@lessin)
+2025-08-23 12:53:15,561 - INFO - ✅ lessin: can_dm = True
+2025-08-23 12:53:15,562 - INFO - ✅ Added Sam Lessin to results (DMs open)
+2025-08-23 12:53:21,984 - INFO - [12/439] Checking Ashmeet Sidana (@ashmeetsidana)
+2025-08-23 12:53:22,371 - INFO - ✅ ashmeetsidana: can_dm = True
+2025-08-23 12:53:22,372 - INFO - ✅ Added Ashmeet Sidana to results (DMs open)
+2025-08-23 12:53:27,287 - INFO - [13/439] Checking Jessica Mah (@JessicaMah)
+2025-08-23 12:53:27,612 - INFO - ✅ JessicaMah: can_dm = False
+2025-08-23 12:53:27,613 - INFO - Taking longer break: 19.9 seconds
+2025-08-23 12:53:47,526 - INFO - [14/439] Checking Jeremy Fiance (@jfiance)
+2025-08-23 12:53:47,724 - INFO - ✅ jfiance: can_dm = True
+2025-08-23 12:53:47,724 - INFO - ✅ Added Jeremy Fiance to results (DMs open)
+2025-08-23 12:53:53,454 - INFO - [15/439] Checking Diana Kimball Berlin (@dianakimball)
+2025-08-23 12:53:53,840 - INFO - ✅ dianakimball: can_dm = True
+2025-08-23 12:53:53,840 - INFO - ✅ Added Diana Kimball Berlin to results (DMs open)
+2025-08-23 12:53:56,764 - INFO - [16/439] Checking Jason Calacanis (@Jason)
+2025-08-23 12:53:57,135 - INFO - ✅ Jason: can_dm = True
+2025-08-23 12:53:57,136 - INFO - ✅ Added Jason Calacanis to results (DMs open)
+2025-08-23 12:54:00,862 - INFO - [17/439] Checking Ryan Hoover (@rrhoover)
+2025-08-23 12:54:01,260 - INFO - ✅ rrhoover: can_dm = True
+2025-08-23 12:54:01,260 - INFO - ✅ Added Ryan Hoover to results (DMs open)
+2025-08-23 12:54:01,261 - INFO - Taking longer break: 23.8 seconds
+2025-08-23 12:54:25,093 - INFO - [18/439] Checking Elizabeth Yin (@dunkhippo33)
+2025-08-23 12:54:25,469 - INFO - ✅ dunkhippo33: can_dm = False
+2025-08-23 12:54:33,385 - INFO - [19/439] Checking Pocket Sun (@pocketysun)
+2025-08-23 12:54:37,433 - INFO - 🚀 Running FULL MODE - checking all 439 investors
+2025-08-23 12:54:37,434 - INFO - 📊 Total investors to check: 429
+2025-08-23 12:54:37,434 - INFO - 📊 Already completed: 10
+2025-08-23 12:54:37,434 - INFO - [1/429] Checking Sam Lessin (@lessin)
+2025-08-23 12:54:37,809 - INFO - ✅ lessin: can_dm = True
+2025-08-23 12:54:37,809 - INFO - ✅ Added Sam Lessin to results (DMs open)
+2025-08-23 12:54:44,364 - INFO - [2/429] Checking Ashmeet Sidana (@ashmeetsidana)
+2025-08-23 12:54:44,624 - INFO - ✅ ashmeetsidana: can_dm = True
+2025-08-23 12:54:44,639 - INFO - ✅ Added Ashmeet Sidana to results (DMs open)
+2025-08-23 12:54:50,875 - INFO - [3/429] Checking Jessica Mah (@JessicaMah)
+2025-08-23 12:54:51,260 - INFO - ✅ JessicaMah: can_dm = False
+2025-08-23 12:54:51,260 - INFO - Taking longer break: 16.6 seconds
+2025-08-23 12:55:07,850 - INFO - [4/429] Checking Jeremy Fiance (@jfiance)
+2025-08-23 12:55:08,118 - INFO - ✅ jfiance: can_dm = True
+2025-08-23 12:55:08,119 - INFO - ✅ Added Jeremy Fiance to results (DMs open)
+2025-08-23 12:55:14,068 - INFO - [5/429] Checking Diana Kimball Berlin (@dianakimball)
+2025-08-23 12:55:14,320 - INFO - ✅ dianakimball: can_dm = True
+2025-08-23 12:55:14,320 - INFO - ✅ Added Diana Kimball Berlin to results (DMs open)
+2025-08-23 12:55:18,158 - INFO - [6/429] Checking Jason Calacanis (@Jason)
+2025-08-23 12:55:18,514 - INFO - ✅ Jason: can_dm = True
+2025-08-23 12:55:18,514 - INFO - ✅ Added Jason Calacanis to results (DMs open)
+2025-08-23 12:55:22,006 - INFO - [7/429] Checking Ryan Hoover (@rrhoover)
+2025-08-23 12:55:22,262 - INFO - ✅ rrhoover: can_dm = True
+2025-08-23 12:55:22,262 - INFO - ✅ Added Ryan Hoover to results (DMs open)
+2025-08-23 12:55:25,616 - INFO - [8/429] Checking Elizabeth Yin (@dunkhippo33)
+2025-08-23 12:55:25,860 - INFO - ✅ dunkhippo33: can_dm = False
+2025-08-23 12:55:28,746 - INFO - [9/429] Checking Pocket Sun (@pocketysun)
+2025-08-23 12:55:29,018 - INFO - ✅ pocketysun: can_dm = False
+2025-08-23 12:55:34,425 - INFO - [10/429] Checking Kevin Siskar (@TheSiskar)
+2025-08-23 12:55:34,711 - INFO - ✅ TheSiskar: can_dm = True
+2025-08-23 12:55:34,711 - INFO - ✅ Added Kevin Siskar to results (DMs open)
+2025-08-23 12:55:42,506 - INFO - [11/429] Checking Conrad Shang (@conradshang)
+2025-08-23 12:55:42,785 - INFO - ✅ conradshang: can_dm = False
+2025-08-23 12:55:48,910 - INFO - [12/429] Checking Arjun Sethi (@arjunsethi)
+2025-08-23 12:55:49,082 - INFO - ✅ arjunsethi: can_dm = True
+2025-08-23 12:55:49,082 - INFO - ✅ Added Arjun Sethi to results (DMs open)
+2025-08-23 12:55:51,748 - INFO - [13/429] Checking Jai Choi (@jaichoi)
+2025-08-23 12:55:52,021 - INFO - ✅ jaichoi: can_dm = False
+2025-08-23 12:55:56,968 - INFO - [14/429] Checking Pankaj Jain (@pjain)
+2025-08-23 12:55:57,262 - INFO - ✅ pjain: can_dm = False
+2025-08-23 12:55:59,634 - INFO - [15/429] Checking Kate McAndrew (@katepmcandrew)
+2025-08-23 12:55:59,947 - INFO - ✅ katepmcandrew: can_dm = True
+2025-08-23 12:55:59,947 - INFO - ✅ Added Kate McAndrew to results (DMs open)
+2025-08-23 12:56:06,979 - INFO - [16/429] Checking Ankit Agarwal (@Ankit7V)
+2025-08-23 12:56:07,359 - INFO - ✅ Ankit7V: can_dm = False
+2025-08-23 12:56:10,621 - INFO - [17/429] Checking Chris Moreno (@MorenoChris)
+2025-08-23 12:56:10,898 - INFO - ✅ MorenoChris: can_dm = True
+2025-08-23 12:56:10,898 - INFO - ✅ Added Chris Moreno to results (DMs open)
+2025-08-23 12:56:13,988 - INFO - [18/429] Checking Sunil Rajaraman (@subes01)
+2025-08-23 12:56:14,185 - INFO - ✅ subes01: can_dm = True
+2025-08-23 12:56:14,186 - INFO - ✅ Added Sunil Rajaraman to results (DMs open)
+2025-08-23 12:56:19,238 - INFO - [19/429] Checking Tyler Mincey (@tmincey)
+2025-08-23 12:56:19,415 - INFO - ✅ tmincey: can_dm = True
+2025-08-23 12:56:19,416 - INFO - ✅ Added Tyler Mincey to results (DMs open)
+2025-08-23 12:56:27,420 - INFO - [20/429] Checking Eric Bahn (@ericbahn)
+2025-08-23 12:56:27,736 - INFO - ✅ ericbahn: can_dm = False
+2025-08-23 12:56:33,784 - INFO - [21/429] Checking Mehrad Yaghmai (@viaMehrad)
+2025-08-23 12:56:33,975 - INFO - ✅ viaMehrad: can_dm = True
+2025-08-23 12:56:33,975 - INFO - ✅ Added Mehrad Yaghmai to results (DMs open)
+2025-08-23 12:56:39,345 - INFO - [22/429] Checking Topher Conway (@topherc)
+2025-08-23 12:56:39,742 - INFO - ✅ topherc: can_dm = False
+2025-08-23 12:56:41,756 - INFO - [23/429] Checking Jacob Shea (@jacobshea)
+2025-08-23 12:56:42,034 - INFO - ✅ jacobshea: can_dm = True
+2025-08-23 12:56:42,035 - INFO - ✅ Added Jacob Shea to results (DMs open)
+2025-08-23 12:56:47,093 - INFO - [24/429] Checking Mark Sugarman (@marksugarman)
+2025-08-23 12:56:47,257 - INFO - ✅ marksugarman: can_dm = False
+2025-08-23 12:56:54,500 - INFO - [25/429] Checking Raj Kapoor (@rajil)
+2025-08-23 12:56:54,654 - INFO - ✅ rajil: can_dm = False
+2025-08-23 12:56:56,727 - INFO - [26/429] Checking Niv Dror (@nivo0o0)
+2025-08-23 12:56:56,871 - INFO - ✅ nivo0o0: can_dm = False
+2025-08-23 12:57:04,001 - INFO - [27/429] Checking Danielle Strachman (@DStrachman)
+2025-08-23 12:57:04,149 - INFO - ✅ DStrachman: can_dm = True
+2025-08-23 12:57:04,150 - INFO - ✅ Added Danielle Strachman to results (DMs open)
+2025-08-23 12:57:06,967 - INFO - [28/429] Checking Elizabeth Galbut (@design4innov8)
+2025-08-23 12:57:07,206 - INFO - ✅ design4innov8: can_dm = True
+2025-08-23 12:57:07,206 - INFO - ✅ Added Elizabeth Galbut to results (DMs open)
+2025-08-23 12:57:14,535 - INFO - [29/429] Checking Mike Maples (@m2jr)
+2025-08-23 12:57:14,697 - INFO - ✅ m2jr: can_dm = False
+2025-08-23 12:57:19,005 - INFO - [30/429] Checking Corey Ford (@coreyford)
+2025-08-23 12:57:19,207 - INFO - ✅ coreyford: can_dm = False
+2025-08-23 12:57:23,103 - INFO - [31/429] Checking Cyan Banister (@cyantist)
+2025-08-23 12:57:23,397 - INFO - ✅ cyantist: can_dm = True
+2025-08-23 12:57:23,398 - INFO - ✅ Added Cyan Banister to results (DMs open)
+2025-08-23 12:57:29,645 - INFO - [32/429] Checking Khailee Ng (@khailee)
+2025-08-23 12:57:29,797 - INFO - ✅ khailee: can_dm = False
+2025-08-23 12:57:35,451 - INFO - [33/429] Checking Monique Woodard (@MoniqueWoodard)
+2025-08-23 12:57:35,602 - INFO - ✅ MoniqueWoodard: can_dm = True
+2025-08-23 12:57:35,603 - INFO - ✅ Added Monique Woodard to results (DMs open)
+2025-08-23 12:57:37,808 - INFO - [34/429] Checking Wayee Chu (@wayeechu)
+2025-08-23 12:57:38,118 - INFO - ✅ wayeechu: can_dm = False
+2025-08-23 12:57:41,962 - INFO - [35/429] Checking Jeff Pomeranz (@seedstagejeff)
+2025-08-23 12:57:42,195 - INFO - ✅ seedstagejeff: can_dm = False
+2025-08-23 12:57:47,645 - INFO - [36/429] Checking Pedro Sorrentino (@pedrosorren)
+2025-08-23 12:57:47,964 - INFO - ✅ pedrosorren: can_dm = False
+2025-08-23 12:57:52,940 - INFO - [37/429] Checking Nick Davidov (@Nick_Davidov)
+2025-08-23 12:57:53,691 - INFO - ✅ Nick_Davidov: can_dm = True
+2025-08-23 12:57:53,691 - INFO - ✅ Added Nick Davidov to results (DMs open)
+2025-08-23 12:57:57,285 - INFO - [38/429] Checking May Samali (@maysamali)
+2025-08-23 12:57:57,456 - INFO - ✅ maysamali: can_dm = False
+2025-08-23 12:58:05,171 - INFO - [39/429] Checking Paul Willard (@webgeek)
+2025-08-23 12:58:05,316 - INFO - ✅ webgeek: can_dm = False
+2025-08-23 12:58:08,283 - INFO - [40/429] Checking Samir Kaji (@samirkaji)
+2025-08-23 12:58:08,487 - INFO - ✅ samirkaji: can_dm = True
+2025-08-23 12:58:08,488 - INFO - ✅ Added Samir Kaji to results (DMs open)
+2025-08-23 12:58:08,501 - INFO - Taking longer break: 10.3 seconds
+2025-08-23 12:58:18,813 - INFO - [41/429] Checking April Underwood (@aunder)
+2025-08-23 12:58:19,023 - INFO - ✅ aunder: can_dm = True
+2025-08-23 12:58:19,023 - INFO - ✅ Added April Underwood to results (DMs open)
+2025-08-23 12:58:24,233 - INFO - [42/429] Checking Samuel Harrison (@samharrisonvc)
+2025-08-23 12:58:24,342 - INFO - ✅ samharrisonvc: can_dm = False
+2025-08-23 12:58:26,898 - INFO - [43/429] Checking Guillaume Cabane (@guillaumecabane)
+2025-08-23 12:58:27,035 - INFO - ✅ guillaumecabane: can_dm = False
+2025-08-23 12:58:34,415 - INFO - [44/429] Checking Dan Altschuler Malek (@daltschuler)
+2025-08-23 12:58:34,689 - INFO - ✅ daltschuler: can_dm = False
+2025-08-23 12:58:42,122 - INFO - [45/429] Checking Brian Nichols (@b_nicks11)
+2025-08-23 12:58:42,489 - INFO - ✅ b_nicks11: can_dm = True
+2025-08-23 12:58:42,490 - INFO - ✅ Added Brian Nichols to results (DMs open)
+2025-08-23 12:58:46,862 - INFO - [46/429] Checking Paul Veradittakit (@veradittakit)
+2025-08-23 12:58:47,213 - INFO - ✅ veradittakit: can_dm = False
+2025-08-23 12:58:50,055 - INFO - [47/429] Checking Mada Seghete (@mada299)
+2025-08-23 12:58:50,288 - INFO - ✅ mada299: can_dm = False
+2025-08-23 12:58:57,722 - INFO - [48/429] Checking Matt Mireles (@mattmireles)
+2025-08-23 12:58:57,879 - INFO - ✅ mattmireles: can_dm = True
+2025-08-23 12:58:57,879 - INFO - ✅ Added Matt Mireles to results (DMs open)
+2025-08-23 12:59:03,714 - INFO - [49/429] Checking Reid Hoffman (@reidhoffman)
+2025-08-23 12:59:03,934 - INFO - ✅ reidhoffman: can_dm = True
+2025-08-23 12:59:03,934 - INFO - ✅ Added Reid Hoffman to results (DMs open)
+2025-08-23 12:59:09,381 - INFO - [50/429] Checking Kanu Gulati (@kanugulati)
+2025-08-23 12:59:09,767 - INFO - ✅ kanugulati: can_dm = False
+2025-08-23 12:59:12,625 - INFO - [51/429] Checking Robin Chan (@robinchan)
+2025-08-23 12:59:13,008 - INFO - ✅ robinchan: can_dm = True
+2025-08-23 12:59:13,009 - INFO - ✅ Added Robin Chan to results (DMs open)
+2025-08-23 12:59:20,403 - INFO - [52/429] Checking Lucy Guo (@LucyGuo)
+2025-08-23 12:59:20,533 - INFO - ✅ LucyGuo: can_dm = False
+2025-08-23 12:59:24,936 - INFO - [53/429] Checking Bart Macdonald (@BartMacdonald)
+2025-08-23 12:59:25,071 - INFO - ✅ BartMacdonald: can_dm = False
+2025-08-23 12:59:29,434 - INFO - [54/429] Checking Ash Egan (@AshAEgan)
+2025-08-23 12:59:29,759 - INFO - ✅ AshAEgan: can_dm = True
+2025-08-23 12:59:29,759 - INFO - ✅ Added Ash Egan to results (DMs open)
+2025-08-23 12:59:37,031 - INFO - [55/429] Checking David Hornik (@davidhornik)
+2025-08-23 12:59:37,182 - INFO - ✅ davidhornik: can_dm = False
+2025-08-23 12:59:44,136 - INFO - [56/429] Checking Darian Shirazi (@darian314)
+2025-08-23 12:59:44,510 - INFO - ✅ darian314: can_dm = True
+2025-08-23 12:59:44,510 - INFO - ✅ Added Darian Shirazi to results (DMs open)
+2025-08-23 12:59:44,511 - INFO - Taking longer break: 14.7 seconds
+2025-08-23 12:59:59,200 - INFO - [57/429] Checking Naval Ravikant (@naval)
+2025-08-23 12:59:59,570 - INFO - ✅ naval: can_dm = False
+2025-08-23 13:00:06,591 - INFO - [58/429] Checking Aaron Batalion (@abatalion)
+2025-08-23 13:00:06,845 - INFO - ✅ abatalion: can_dm = True
+2025-08-23 13:00:06,846 - INFO - ✅ Added Aaron Batalion to results (DMs open)
+2025-08-23 13:00:12,165 - INFO - [59/429] Checking Phin Barnes (@phineasb)
+2025-08-23 13:00:12,341 - INFO - ✅ phineasb: can_dm = True
+2025-08-23 13:00:12,342 - INFO - ✅ Added Phin Barnes to results (DMs open)
+2025-08-23 13:00:18,737 - INFO - [60/429] Checking Frank Chen (@withfries2)
+2025-08-23 13:00:19,098 - INFO - ✅ withfries2: can_dm = False
