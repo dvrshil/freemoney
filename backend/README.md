@@ -22,8 +22,7 @@ Content-Type: application/json
   { "x_url": "https://x.com/target2", "personal_message": "hello two" }
 ]
 
-// Optional overrides can be passed as query params for the whole batch:
-//   ?model=gpt-5-mini&azure_endpoint=...&chrome_executable_path=...
+// No query overrides are supported; settings are hardcoded in the backend.
 ```
 
 ## Response
@@ -38,17 +37,16 @@ Content-Type: application/json
 ```
 
 ## Environment Variables
-Provide these via `.env` in `backend/` (or the project root), or the process environment:
+Provide only the OpenAI key via `.env` in `backend/` (or the process environment):
 
 - OPENAI_API_KEY (required)
-- OPENAI_MODEL (optional, fallback if no `model` query param)
-- BROWSER_EXECUTABLE_PATH (default: macOS Chrome path)
-- BROWSER_USER_DATA_DIR (default: `~/.config/browseruse/profiles/real-chrome`)
-- FRONTEND_ORIGIN (default: `http://localhost:3000` for local CORS)
-- PORT (default: `8000`)
 
-Note: The current implementation wires `browser_use` with OpenAI. Azure variables
-(`AZURE_OPENAI_*`) are not consumed yet.
+Everything else is hardcoded for local development:
+- Model: `gpt-4o-mini`
+- Chrome executable: `/Applications/Google Chrome.app/Contents/MacOS/Google Chrome`
+- Chrome user data dir: `~/.config/browseruse/profiles/real-chrome`
+
+The server still defaults to CORS origin `http://localhost:3000` and port `8000` inside the code.
 
 See `.env.example` for the list without values.
 
@@ -59,7 +57,8 @@ See `.env.example` for the list without values.
    mkdir -p ~/.config/browseruse/profiles \
      && cp -r "~/Library/Application Support/Google/Chrome" ~/.config/browseruse/profiles/real-chrome
    ```
-3. Ensure `BROWSER_EXECUTABLE_PATH` and `BROWSER_USER_DATA_DIR` match your environment.
+3. The backend uses hardcoded paths shown above. If your Chrome path/profile differs,
+   update `DEFAULT_CHROME_EXECUTABLE` or `DEFAULT_USER_DATA_DIR` in `backend/real_browser.py`.
 
 ## Install & Run
 From project root or `backend/`:

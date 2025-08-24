@@ -48,3 +48,4 @@ dm_check_errors.json
 
 # python venvs
 **/.venv/
+**/__pycache__/

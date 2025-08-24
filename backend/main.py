@@ -3,9 +3,9 @@ import asyncio
 import logging
 from typing import Optional
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 try:
     # Pydantic v2
     from pydantic import ConfigDict  # type: ignore
@@ -85,11 +85,6 @@ async def health() -> dict:
 @app.post("/send-messages", response_model=SendMessagesBatchResponse)
 async def send_messages(
     items: list[SendMessagesItem],
-    model: Optional[str] = Query(None, description="Azure OpenAI deployment/model name"),
-    azure_api_key: Optional[str] = Query(None, description="Azure OpenAI API key override"),
-    azure_endpoint: Optional[str] = Query(None, description="Azure OpenAI endpoint override"),
-    chrome_executable_path: Optional[str] = Query(None, description="Path to Chrome executable"),
-    chrome_user_data_dir: Optional[str] = Query(None, description="Browser user-data-dir for Chrome profile"),
 ) -> SendMessagesBatchResponse:
     results: list[BatchItemResult] = []
     logging.info("/send-messages: received %d item(s)", len(items))
@@ -106,11 +101,6 @@ async def send_messages(
             await send_message_with_browser(
                 x_url=x_url,
                 personal_message=personal_message,
-                model=model,
-                azure_api_key=azure_api_key,
-                azure_endpoint=azure_endpoint,
-                chrome_executable_path=chrome_executable_path,
-                chrome_user_data_dir=chrome_user_data_dir,
             )
             results.append(BatchItemResult(id=x_url, status="ok"))
         except Exception as e:  # noqa: BLE001

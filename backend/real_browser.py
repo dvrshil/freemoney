@@ -23,39 +23,34 @@ def _build_prompt(x_url: str, personal_message: str) -> str:
     )
 
 
+DEFAULT_CHROME_EXECUTABLE = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+DEFAULT_USER_DATA_DIR = os.path.expanduser("~/.config/browseruse/profiles/real-chrome")
+DEFAULT_MODEL = "gpt-4o-mini"
+
+
 async def send_message_with_browser(
     x_url: str,
     personal_message: str,
     *,
-    model: Optional[str] = None,
-    azure_api_key: Optional[str] = None,
-    azure_endpoint: Optional[str] = None,
+    model: str = DEFAULT_MODEL,
     chrome_executable_path: Optional[str] = None,
     chrome_user_data_dir: Optional[str] = None,
 ) -> None:
     """
-    Use BrowserUse + Azure OpenAI to automate sending a DM on X.
+    Use BrowserUse + OpenAI to automate sending a DM on X.
 
-    Parameters are primarily read from environment variables if not explicitly passed:
-      - AZURE_OPENAI_API_KEY
-      - AZURE_OPENAI_ENDPOINT
-      - AZURE_OPENAI_MODEL (defaults to "gpt-5-mini")
-      - BROWSER_EXECUTABLE_PATH (defaults to a macOS Chrome path)
-      - BROWSER_USER_DATA_DIR (defaults to ~/.config/browseruse/profiles/real-chrome)
+    All settings are hardcoded here for simplicity, except the OpenAI key
+    which must be provided via environment (`OPENAI_API_KEY`).
     """
 
-    # Resolve configuration from args or environment variables
+    # Load only to pick up OPENAI_API_KEY; other settings are hardcoded.
     load_dotenv()
 
-    # Resolve Chrome settings
-    chrome_executable_path = chrome_executable_path or os.getenv(
-        "BROWSER_EXECUTABLE_PATH",
-        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    # Resolve Chrome settings using hardcoded defaults unless explicitly overridden
+    chrome_executable_path = chrome_executable_path or DEFAULT_CHROME_EXECUTABLE
+    chrome_user_data_dir = os.path.expanduser(
+        chrome_user_data_dir or DEFAULT_USER_DATA_DIR
     )
-    chrome_user_data_dir = chrome_user_data_dir or os.getenv(
-        "BROWSER_USER_DATA_DIR", "~/.config/browseruse/profiles/real-chrome"
-    )
-    chrome_user_data_dir = os.path.expanduser(chrome_user_data_dir)
 
     if not os.path.exists(chrome_executable_path):
         raise RuntimeError(
@@ -73,17 +68,10 @@ async def send_message_with_browser(
 
     prompt = _build_prompt(x_url=x_url, personal_message=personal_message)
 
-    # LLM configuration. Prefer explicit OpenAI API key. Azure is not wired through
-    # browser_use's ChatOpenAI yet in this project.
+    # LLM configuration: Only OPENAI_API_KEY is required
     openai_api_key = os.getenv("OPENAI_API_KEY")
     if not openai_api_key:
-        raise RuntimeError(
-            "OPENAI_API_KEY is not set for backend real browser agent."
-        )
-
-    if not model:
-        # Allow override through env var if not passed via query param
-        model = os.getenv("AZURE_OPENAI_MODEL") or os.getenv("OPENAI_MODEL")
+        raise RuntimeError("OPENAI_API_KEY is not set for backend real browser agent.")
 
     logging.info(
         "Launching BrowserUse agent: model=%s, target=%s, profile=%s",
@@ -94,7 +82,7 @@ async def send_message_with_browser(
 
     agent = Agent(
         llm=ChatOpenAI(
-            model=model,  # Let library default if None
+            model=model,
             api_key=openai_api_key,
         ),
         task=prompt,
