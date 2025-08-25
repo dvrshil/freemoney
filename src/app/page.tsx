@@ -28,7 +28,7 @@ export default function Home() {
   const [dmResult, setDmResult] = useState<{
     results: { id: string; status: string; detail?: string }[]
   } | null>(null)
-  
+
   const findInvestors = useAction(api.findInvestors.findRelevantInvestors)
 
   const toggleIndustry = (industry: string) => {
@@ -67,16 +67,16 @@ export default function Home() {
 
       console.log('Found investors:', result)
       setResults(result)
-      
+
       // Log the DM payload for backend endpoint
       console.log('\n=== DM PAYLOAD FOR BACKEND ===')
       console.log(JSON.stringify(result.dmPayload, null, 2))
       console.log('=== END DM PAYLOAD ===\n')
-      
+
       // Also log summary for reference
       console.log('Summary:', result.summary)
       console.log(`Found ${result.totalFound} top matching investors`)
-      
+
       // Send the DM payload to the backend
       setIsSending(true)
       try {
@@ -106,6 +106,19 @@ export default function Home() {
       } finally {
         setIsSending(false)
       }
+      fetch('http://localhost:8000/send-messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(result.dmPayload),
+      })
+        .then((response) => {
+          console.log('Backend response:', response.status)
+        })
+        .catch((error) => {
+          console.error('Error sending to backend:', error)
+        })
     } catch (error) {
       console.error('Error finding investors:', error)
       alert('Error finding investors. Check the console for details.')
@@ -183,7 +196,7 @@ export default function Home() {
                 id="aboutStartup"
                 value={aboutStartup}
                 onChange={(e) => setAboutStartup(e.target.value)}
-                placeholder="What you do, traction, go‑to‑market, stage…"
+                placeholder="What your startup does, your business model, your market…"
                 rows={4}
                 className="w-full resize-y rounded-xl border border-[color:var(--border)] bg-[color:var(--surface-2)] px-4 py-3 shadow-inner focus:outline-none focus:ring-2 focus:ring-[color:var(--accent-strong)]"
               />
@@ -194,9 +207,7 @@ export default function Home() {
                 Industry focus
               </label>
               <div className="grid grid-cols-2 gap-3 p-4 rounded-xl border border-[color:var(--border)] bg-[color:var(--surface-2)]">
-                <label
-                  className="flex items-center gap-2 cursor-pointer hover:bg-[color:var(--surface)] p-2 rounded-lg transition col-span-2 border-b border-[color:var(--border)] pb-3 mb-1"
-                >
+                <label className="flex items-center gap-2 cursor-pointer hover:bg-[color:var(--surface)] p-2 rounded-lg transition col-span-2 border-b border-[color:var(--border)] pb-3 mb-1">
                   <input
                     type="checkbox"
                     checked={selectedIndustries.length === INDUSTRIES.length}
@@ -245,17 +256,17 @@ export default function Home() {
               </button>
             </div>
           </form>
-          
+
           {/* Results Display */}
           {results && (
             <div className="mt-6">
               <h3 className="text-lg font-medium mb-4">
                 Top {results.totalFound} Matched Investors
               </h3>
-              
+
               <div className="space-y-4">
                 {results.investors.map((investor: any, index: number) => (
-                  <div 
+                  <div
                     key={investor.id || index}
                     className="p-5 rounded-xl border border-[color:var(--border)] bg-[color:var(--surface-2)] hover:bg-[color:var(--surface)] transition"
                   >
@@ -265,15 +276,19 @@ export default function Home() {
                           {investor.name}
                         </h4>
                         <p className="text-sm text-[color:var(--muted, #8b9891)]">
-                          {investor.firm || 'Angel Investor'} {investor.position ? `• ${investor.position}` : ''}
+                          {investor.firm || 'Angel Investor'}{' '}
+                          {investor.position ? `• ${investor.position}` : ''}
                         </p>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="text-xs bg-[color:var(--accent-strong)] text-[color:var(--foreground)] px-2 py-1 rounded-lg">
                           {Math.round((investor._score || 0) * 100)}% match
                         </span>
-                        <a 
-                          href={investor.twitter_url || `https://twitter.com/${investor.username}`}
+                        <a
+                          href={
+                            investor.twitter_url ||
+                            `https://twitter.com/${investor.username}`
+                          }
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-sm text-[color:var(--accent-strong)] hover:underline"
@@ -282,12 +297,14 @@ export default function Home() {
                         </a>
                       </div>
                     </div>
-                    
+
                     <div className="mb-3">
-                      <p className="text-xs text-[color:var(--muted, #8b9891)] mb-1">Industries:</p>
+                      <p className="text-xs text-[color:var(--muted, #8b9891)] mb-1">
+                        Industries:
+                      </p>
                       <div className="flex flex-wrap gap-1">
                         {investor.industries.map((industry: string) => (
-                          <span 
+                          <span
                             key={industry}
                             className="text-xs px-2 py-1 rounded-md bg-[color:var(--surface)] border border-[color:var(--border)]"
                           >
@@ -296,15 +313,19 @@ export default function Home() {
                         ))}
                       </div>
                     </div>
-                    
+
                     <div className="bg-[color:var(--surface)] rounded-lg p-3">
-                      <p className="text-xs text-[color:var(--muted, #8b9891)] mb-2">Personalized DM:</p>
+                      <p className="text-xs text-[color:var(--muted, #8b9891)] mb-2">
+                        Personalized DM:
+                      </p>
                       <p className="text-sm mb-3 font-mono">
                         {investor.personalizedMessage}
                       </p>
                       <button
                         onClick={() => {
-                          navigator.clipboard.writeText(investor.personalizedMessage)
+                          navigator.clipboard.writeText(
+                            investor.personalizedMessage
+                          )
                           alert('Message copied to clipboard!')
                         }}
                         className="text-xs px-3 py-1.5 rounded-lg bg-[color:var(--accent-strong)] text-[color:var(--foreground)] hover:opacity-90 transition"
@@ -315,11 +336,15 @@ export default function Home() {
                   </div>
                 ))}
               </div>
-              
+
               <div className="mt-4 p-3 rounded-lg bg-[color:var(--surface-2)] border border-[color:var(--border)]">
                 <div className="flex items-center justify-between">
                   <p className="text-xs text-[color:var(--muted, #8b9891)]">
-                    {isSending ? 'Sending DMs…' : dmResult ? 'DM results' : 'Ready to send DMs'}
+                    {isSending
+                      ? 'Sending DMs…'
+                      : dmResult
+                        ? 'DM results'
+                        : 'Ready to send DMs'}
                   </p>
                 </div>
 
@@ -345,7 +370,10 @@ export default function Home() {
                           </span>
                         </div>
                         {r.status !== 'ok' && r.detail && (
-                          <p className="mt-1 text-xs text-[color:var(--muted, #8b9891)] truncate" title={r.detail}>
+                          <p
+                            className="mt-1 text-xs text-[color:var(--muted, #8b9891)] truncate"
+                            title={r.detail}
+                          >
                             {r.detail}
                           </p>
                         )}

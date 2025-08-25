@@ -49,3 +49,12 @@ dm_check_errors.json
 # python venvs
 **/.venv/
 **/__pycache__/
+backend/__pycache__/
+*.pyc
+
+# backend files
+backend/sample-batch.json
+backend/sent_urls.json
+
+# data files
+investors_data/

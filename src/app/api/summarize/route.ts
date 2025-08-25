@@ -29,8 +29,6 @@ ${aboutYou}
 
 About the Startup:
 ${aboutStartup}
-
-Industry Focus: ${selectedIndustries.join(', ')}
 `
 
     // Generate structured summary using GPT-4o
@@ -38,10 +36,9 @@ Industry Focus: ${selectedIndustries.join(', ')}
       model: openai('gpt-4o'),
       schema: FounderSummarySchema,
       system:
-        "You are a precise summarizer for startup founders seeking investment. Create a comprehensive summary that will help match them with relevant investors. Focus PRIMARILY on the startup (product, market, traction, business model, stage) and only include founder details that directly enhance the startup's investability and credibility.",
-      prompt: `Summarize the following founder and startup information for investor matching:\n\n---BEGIN DATA---\n${combinedInput}\n---END DATA---`,
+        "You are a simple summarizer. Create a clear, concise summary of the founder's personal background and their startup. Just summarize what they've written without trying to analyze traction, stage, or investment potential.",
+      prompt: `Summarize the following founder and startup information:\n\n---BEGIN DATA---\n${combinedInput}\n---END DATA---`,
       temperature: 0,
-      maxTokens: 600,
     })
 
     return Response.json({ summary: founderSummary })

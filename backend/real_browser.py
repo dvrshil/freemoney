@@ -1,7 +1,8 @@
 import asyncio
 import os
 import logging
-from typing import Optional
+import json
+from typing import Optional, Set
 
 from dotenv import load_dotenv
 from browser_use import Agent, BrowserProfile, BrowserSession, ChatOpenAI
@@ -9,14 +10,47 @@ from browser_use import Agent, BrowserProfile, BrowserSession, ChatOpenAI
 # Load environment variables from a local .env file if present
 load_dotenv()
 
+# File to track sent messages
+SENT_URLS_FILE = os.path.join(os.path.dirname(__file__), "sent_urls.json")
+
+
+def _load_sent_urls() -> Set[str]:
+    """Load the set of URLs that have already been sent messages."""
+    try:
+        if os.path.exists(SENT_URLS_FILE):
+            with open(SENT_URLS_FILE, 'r') as f:
+                return set(json.load(f))
+        return set()
+    except Exception as e:
+        logging.warning(f"Could not load sent URLs file: {e}")
+        return set()
+
+
+def _save_sent_url(x_url: str) -> None:
+    """Save a URL to the sent URLs file."""
+    try:
+        sent_urls = _load_sent_urls()
+        sent_urls.add(x_url)
+        with open(SENT_URLS_FILE, 'w') as f:
+            json.dump(list(sent_urls), f, indent=2)
+        logging.info(f"Saved sent URL: {x_url}")
+    except Exception as e:
+        logging.error(f"Could not save sent URL {x_url}: {e}")
+
+
+def _has_sent_to_url(x_url: str) -> bool:
+    """Check if we have already sent a message to this URL."""
+    return x_url in _load_sent_urls()
+
 
 def _build_prompt(x_url: str, personal_message: str) -> str:
     return (
         "\n".join(
             [
                 f"1. Visit {x_url}",
-                "2. press the message icon from the top right corner",
+                "2. press the message icon from the top middle of their profile. NOT THE ONE ON THE LEFT SIDEBAR!",
                 f"3. send message `{personal_message}` and press enter to send",
+                "Never wait for a response. Just send the message and move on."
             ]
         )
         + "\n"
@@ -25,7 +59,7 @@ def _build_prompt(x_url: str, personal_message: str) -> str:
 
 DEFAULT_CHROME_EXECUTABLE = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 DEFAULT_USER_DATA_DIR = os.path.expanduser("~/.config/browseruse/profiles/real-chrome")
-DEFAULT_MODEL = "gpt-4o-mini"
+DEFAULT_MODEL = "gpt-5-mini"
 
 
 async def send_message_with_browser(
@@ -42,6 +76,11 @@ async def send_message_with_browser(
     All settings are hardcoded here for simplicity, except the OpenAI key
     which must be provided via environment (`OPENAI_API_KEY`).
     """
+
+    # Check if we've already sent a message to this URL
+    if _has_sent_to_url(x_url):
+        logging.info(f"Skipping {x_url} - already sent a message to this URL")
+        return
 
     # Load only to pick up OPENAI_API_KEY; other settings are hardcoded.
     load_dotenv()
@@ -84,12 +123,16 @@ async def send_message_with_browser(
         llm=ChatOpenAI(
             model=model,
             api_key=openai_api_key,
+            reasoning_effort="minimal"
         ),
         task=prompt,
         browser_session=browser_session,
     )
 
     await agent.run()
+    
+    # Save the URL to prevent duplicate messages
+    _save_sent_url(x_url)
 
 
 async def _main_example():

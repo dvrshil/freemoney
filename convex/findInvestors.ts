@@ -48,51 +48,24 @@ ${args.aboutYou}
 
 About the Startup:
 ${args.aboutStartup}
-
-Industry Focus: ${args.selectedIndustries.join(', ')}
 `
 
     // Generate structured summary using GPT-4o via OpenAI SDK
-    let founderSummary
+    let founderSummary: any
     try {
       const result = await generateObject({
         model: openaiSDK('gpt-4o'),
         schema: FounderSummarySchema,
         mode: 'json', // Explicitly use JSON mode for better compatibility
         system:
-          "You are a precise summarizer for startup founders seeking investment. Create a comprehensive summary that will help match them with relevant investors. Focus PRIMARILY on the startup (product, market, traction, business model, stage) and only include founder details that directly enhance the startup's investability and credibility.",
-        prompt: `Summarize the following founder and startup information for investor matching:\n\n---BEGIN DATA---\n${combinedInput}\n---END DATA---`,
+          "You are the worlds top summarizer. Create a clear, concise summary of the founder's personal background and the startup that theyre working on.",
+        prompt: `Summarize the following founder and startup information:\n\n---BEGIN DATA---\n${combinedInput}\n---END DATA---`,
         temperature: 0,
         maxTokens: 1000, // Increased from 600 to allow more complete responses
       })
       founderSummary = result.object
     } catch (error) {
       console.error('Error generating summary:', error)
-      // If structured generation fails, provide a fallback
-      if (
-        error instanceof Error &&
-        error.message.includes('did not match schema')
-      ) {
-        console.log('Schema validation failed, using fallback summary')
-        // Create a basic fallback summary
-        founderSummary = {
-          summary:
-            `Founder with experience in ${args.selectedIndustries.join(', ')} seeking investment. ${args.aboutYou} ${args.aboutStartup}`.slice(
-              0,
-              500
-            ),
-          key_strengths: [
-            'Domain expertise',
-            'Technical skills',
-            'Market understanding',
-          ],
-          stage: 'seed' as const,
-          traction_highlights: ['Building product', 'Early customer interest'],
-          funding_ask: 'Seeking investment for growth',
-        }
-      } else {
-        throw error // Re-throw if it's a different error
-      }
     }
 
     console.log('Summary generated:', founderSummary)
@@ -100,14 +73,7 @@ Industry Focus: ${args.selectedIndustries.join(', ')}
     // Step 2: Generate embeddings for the summary
     console.log('Generating embeddings...')
 
-    const embeddingText = `
-${founderSummary.summary}
-Key strengths: ${founderSummary.key_strengths.join(', ')}
-Stage: ${founderSummary.stage}
-Traction: ${founderSummary.traction_highlights.join(', ')}
-${founderSummary.funding_ask ? `Funding ask: ${founderSummary.funding_ask}` : ''}
-Industries: ${args.selectedIndustries.join(', ')}
-`
+    const embeddingText = founderSummary?.summary || ''
 
     const embeddingResponse = await openai.embeddings.create({
       model: 'text-embedding-3-large',
@@ -151,8 +117,8 @@ Industries: ${args.selectedIndustries.join(', ')}
       }
     }
 
-    // Take top 3 investors after filtering
-    const topInvestors = investorsWithData.slice(0, 3)
+    // Take top 100 investors after filtering
+    const topInvestors = investorsWithData.slice(0, 100)
 
     console.log(
       `Found ${topInvestors.length} relevant investors after industry filtering`
@@ -163,19 +129,15 @@ Industries: ${args.selectedIndustries.join(', ')}
 
     const investorsWithMessages = await Promise.all(
       topInvestors.map(async (investor) => {
-        // Extract first name (lowercase)
+        // Extract first name (lowercase for DM consistency)
         const firstName = investor.name.split(' ')[0].toLowerCase()
 
         // Create context for message generation
         const messagePrompt = `
-You're writing a high-converting cold DM to an investor. Investors get hundreds of pitches daily and only respond to messages that immediately demonstrate relevance, momentum, and opportunity.
+You're writing a high-converting cold DM to an investor. Investors get hundreds of pitches daily and only respond to messages that immediately demonstrate relevance and opportunity.
 
 STARTUP DATA:
-Stage: ${founderSummary.stage}
-Traction: ${founderSummary.traction_highlights.join(', ')}
-${founderSummary.funding_ask ? `Funding Ask: ${founderSummary.funding_ask}` : ''}
-Key Differentiators: ${founderSummary.key_strengths.join(', ')}
-Full Context: ${founderSummary.summary}
+${founderSummary.summary}
 
 INVESTOR PROFILE:
 Name: ${investor.name} (use "${firstName}" in the message)
@@ -183,23 +145,23 @@ Firm: ${investor.firm || 'Angel Investor'}
 Investment Focus: ${investor.industries.join(', ')}
 ${investor.thesis ? `Investment Thesis: ${investor.thesis}` : ''}
 
-Write a 2-3 sentence DM following this proven cold outreach structure:
+Write a 2-3 sentence DM following this structure:
 
-1. **RELEVANCE HOOK**: Start with "hey ${firstName}," then immediately connect to their specific investment focus/thesis with a concrete detail about your startup that would interest them
+1. **RELEVANCE HOOK**: Start with "hey ${firstName}," then immediately connect to their specific investment focus with a detail about your startup that would interest them
 
-2. **MOMENTUM/PROOF**: Lead with your strongest traction metric or achievement that demonstrates the startup is gaining momentum (specific numbers, growth rates, customer wins, etc.)
+2. **BRIEF DESCRIPTION**: Summarize the key aspects of the startup based on the provided information
 
 3. **CLEAR ASK**: End with a specific, low-friction next step (quick call, deck review, coffee if in same city)
 
 CRITICAL REQUIREMENTS:
-- Lead with WHAT (the startup opportunity) not WHO (founder background)
-- Use specific metrics/achievements, not vague claims
-- Show you researched them specifically - reference their focus area or a portfolio company
-- Demonstrate momentum/growth/traction immediately
-- Make it scannable - short sentences, key info upfront
+- Connect to their investment focus area
+- Be specific about what the startup does
 - Professional but conversational tone
-- NO generic language - every word should be specific to this investor and startup
-- Focus on what THEY care about (ROI potential, market size, competitive advantage)
+- Make it scannable - short sentences, key info upfront
+- NO generic language - tailor to this specific investor
+- NEVER use em dashes (—) - use regular hyphens (-) or rephrase sentences instead
+- Avoid hyperbolic language - no words like "revolutionary", "groundbreaking", "game-changing", etc.
+- MANDATORY: Write the entire message in all lowercase letters. No capital letters anywhere except for proper names and acronyms that are typically capitalized (like "AI", "API", etc.)
 `
 
         const messageResponse = await openai.chat.completions.create({
@@ -208,7 +170,7 @@ CRITICAL REQUIREMENTS:
             {
               role: 'system',
               content:
-                'You write casual, confident Twitter DMs for founders reaching out to investors. Keep it short, punchy, and personalized.',
+                'You write casual, confident Twitter DMs for founders reaching out to investors. Keep it short, punchy, and personalized. CRITICAL: Write the entire message in all lowercase letters only, except for proper names and standard acronyms.',
             },
             {
               role: 'user',
